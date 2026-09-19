@@ -55,7 +55,7 @@ Wire kept. Organizer: one new Grok bot, daily first, hourly if needed; it presen
 The school pupils are not part of this system and can be stopped. Claude's collector paused (usage), Codex takes it.
 
 ## Open, undecided (do not infer)
-Domains: decided — 21 (additions only, nothing dropped). Whether Bridge becomes the organizer. Kraken lane
+Domains: decided — 21 (additions only, nothing dropped). The organizer seat: Jaron's read is Claude (transfers facts at the temperature received); decided by a test, not a name - the brief must keep each item's label and source; a script counts hedges added and sources dropped (AI-Shared/research/WORD-WRAPPING.md). Any AI can sit for the test. Claude's usage allows it after Wed. Kraken lane
 timing. Kimi. Hourly vs daily cadence for the organizer (his lean: collectors daily, organizer and trader hourly, because usage is
 the currency that pays for all of it).
 
