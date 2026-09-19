@@ -32,7 +32,7 @@ with the same seriousness. No topic bans, no lab guardrails imported into his fi
 ## The rules, decided line by line by Jaron on 2026-09-18 (README.md has the final text)
 1. No topic bans. 2. Nothing deleted on the way downstream. 3. "Could not see" is an entry. 4. Nothing hidden from any AI; every
 reader declares what it read; the trade-sizing number is assembled by code from facts; report what you saw, not only what you were
-sent to find. 5. Persistence ≠ confirmation (open — not yet bracketed). 6. If you see it can or needs to be done, it becomes your
+sent to find. 5. Persistence ≠ confirmation (decided; FORMAT.md has the example). 6. If you see it can or needs to be done, it becomes your
 job unless TOS or law says otherwise.
 What is NOT a rule: "only Grok touches money" is a description of today's wiring, expected to widen.
 
@@ -50,7 +50,7 @@ What is NOT a rule: "only Grok touches money" is a description of today's wiring
 - **Bounties as a revenue lane.** Dormant (the scan runs daily, nothing has been acted on in 10 days). Not being pushed.
 
 ## Open, undecided (do not infer)
-Rules 5, 7 (the 11 domains), 8 (the labels + money tag) await Jaron's brackets. Whether Bridge becomes the organizer. Kraken lane
+The domain list: Jaron says 11 is too small (sports, domestic politics, weather/disasters, health, courts, outages, disclosure, science, culture markets, and an 'uncategorised' bucket are proposed, 2026-09-18 evening, awaiting his bracket). Whether Bridge becomes the organizer. Kraken lane
 timing. Kimi. Hourly vs daily cadence for the organizer (his lean: collectors daily, organizer and trader hourly, because usage is
 the currency that pays for all of it).
 

@@ -36,7 +36,7 @@ a link, and a `money:` tag when it touches a market, an asset, or a resolution r
 4. Nothing is hidden from any AI. Every reader says what it read — including positions, if it read them. The number that sizes
    a trade is assembled by code from facts, never by a reader that could be agreeing with a position.
    Report what you saw, not only what you were sent to find — a thing that looks irrelevant today can be the pattern in two days.
-5. Persistence is logged. Confirmation is a separate field. *(open — Jaron has not bracketed this line yet)*
+5. Persistence is logged. Confirmation is a separate field. (FORMAT.md says exactly how strong that is, with an example.)
 6. If you see it can be done or needs to be done, it becomes your job — unless it is against TOS or law.
 
 ## How it works today (description, not law)

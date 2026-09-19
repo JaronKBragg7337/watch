@@ -23,12 +23,17 @@ Status: substantive | thin | unavailable
 Each item, one line:
 - [HH:MM local] [observed|claim|theory] [official|press|solo|social|model-only] what happened — source URL — money: <polymarket slug | ticker | asset | none>
   observed = a primary source said/did it; claim = someone asserts it, not confirmed; theory = a pattern or scenario, unconfirmed.
+  (Jaron, bracket 8: useful; may change later.)
   source class (Jaron, 2026-09-18): official = a government/company/venue speaking for itself; press = an outlet; solo = an independent
   journalist or researcher; social = X/forums; model-only = the writer's own knowledge with no source. A class is a label, not a rank —
   solo and social have carried things official channels had not said yet.
 
 ## Persistence
 Items that appeared in earlier captures and are back (say which date). Not confirmation.
+Persistence = it showed up before and is back. Confirmation = the thing it predicted actually happened, per a stated test. Separate
+fields, so nothing becomes true by repetition. Example (Sept 2026): six UAP file tranches this year = high persistence; the
+market's test is "an official states extraterrestrial life/technology exists" = confirmation zero. Iran blockade 101 -> 103 -> 104
+vessels = persistence of enforcement, not confirmation of anything about a ceasefire. (Jaron, bracket 5, 2026-09-18.)
 
 ## Silences
 What usually shows up and did not.
