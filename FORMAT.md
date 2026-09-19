@@ -40,3 +40,23 @@ Sources down, refused, paywalled, outside the writer's reach. Say it.
 Readers (deepseek, qwen) use the same headings but `Sources: other captures (reader)`, and add:
 `## Convergence` (what two or more collectors agree on), `## Divergence` (where they disagree, kept), and
 `## From the other hemisphere` (what a non-US reader would weigh differently).
+
+## market-feed packet — what the trading bots read, word for word
+`market-feed/YYYY-MM-DD.jsonl`, one JSON object per line, written by the organizer from the day's captures. A hint and a trail,
+never an order: Qwen still sizes, the desk still executes.
+
+```
+{"ts":"2026-09-18T15:18-04:00",
+ "market":"usfed-fomc-2026-09-16",
+ "event":"FOMC raised 25 bp to 3.75-4.00%, unanimous",
+ "rule_effect":"'50 bp or more' resolves NO; 'no change' resolves NO",
+ "lean":"no",
+ "label":"observed","source_class":"official",
+ "source":"https://polymarket.us/event/usfed-fomc-2026-09-16",
+ "from":["claude/2026-09-18.md#02","deepseek/2026-09-18.md#09"],
+ "confidence":"high"}
+```
+- `market`: Polymarket US slug, or a ticker / asset for the Kraken lane.
+- `rule_effect`: why the market's resolution text might care. If it does not, the event does not belong in the feed.
+- `lean`: yes | no | volatility | none. A direction hint. Not a size, not a decision.
+- `from`: the capture(s) and section(s) it came from, so anything can be traced back.
