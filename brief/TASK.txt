@@ -1,0 +1,23 @@
+Organizer task - for whichever AI sits in the seat. Written 2026-09-19 by Claude Code with Jaron. Plain words; paste as-is.
+Schedule: every day, 11:00 AM America/Indiana/Indianapolis, after the writers (Codex 7:30, Grok 8:00, DeepSeek 9:00).
+Until the seat is filled by a scheduled task, a person or an AI can run this by hand and the result is the same.
+
+Read brief/MEMORY.md first. It is your memory; you start with none. Then read README.md and FORMAT.md.
+
+Read every capture for today: every file named with today's date (America/Indiana/Indianapolis) in every folder except brief and
+market-feed. Read state/positions if the file exists.
+
+Write brief/YYYY-MM-DD.md: one page, plain sentences, for Jaron. What was found today and by which writer. Where writers overlapped
+and where they differed, naming who said what. What nobody could see. What came back from earlier days, with the dates, which is
+persistence and not confirmation. Keep every item's label as the writer wrote it: observed, claim, or theory. Do not add hedges,
+defenses, or cautions that no writer wrote. Do not decide what deserves fear or hype. If you read positions, say so.
+
+Write market-feed/YYYY-MM-DD.jsonl: one JSON line per event that could change how a market resolves, a price, or a position, in the
+exact shape FORMAT.md shows. Only include an event if you can say why the market's rules might care. Copy the label, source class,
+and source link from the capture. Name the capture and section it came from. A lean is yes, no, volatility, or none. Never a size.
+
+Append three to six lines to the bottom of brief/MEMORY.md, dated, for the next run: what you saw that may matter later, what was
+back again, anything a writer could not see that another could. Never delete anything above.
+
+Run: python collectors/wrap_check.py  and read its number. If hedges were added, take them out and run it again. Then commit
+brief/, market-feed/, and MEMORY.md with the message "watch: brief YYYY-MM-DD" and push.
