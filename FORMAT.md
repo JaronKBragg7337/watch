@@ -1,4 +1,5 @@
 # Capture format — every writer, every day
+Domains 01–08 are Orchestra's (July 2026); 09–11 added 2026-09-18 morning; 12–21 added 2026-09-18 evening (Jaron: "the scope is small... is there other domains that could matter?"). Nothing was dropped; additions only.
 
 File: `<writer>/YYYY-MM-DD.md` (local date, America/Indiana/Indianapolis). Hourly writers use `YYYY-MM-DD-HH.md`.
 
@@ -19,6 +20,16 @@ Status: substantive | thin | unavailable
 ## 09 prediction-market resolution events   (anything that changes how a market resolves: an official sentence, a date, a rule)
 ## 10 crypto / stock catalysts              (earnings, listings, hacks, ETF flows, halvings, regulation)
 ## 11 Indiana / Midwest ground truth        (cost of living, weather, local employers, roofing season, state agencies)
+## 12 sports                                (schedules, injuries, lineups, venue weather, esports rosters — what the trader reads first)
+## 13 U.S. politics and elections           (polls, primaries, votes on bills, court rulings on elections)
+## 14 weather, climate and disasters        (storms, floods, heat, wildfire — national and Midwest)
+## 15 health                                (outbreaks, FDA decisions, drug approvals — market- and family-relevant)
+## 16 law, courts and regulation            (rulings, SEC/CFTC/FCC actions, bills with dates)
+## 17 outages and cyber                     (cloud, telecom, exchanges, banks, critical infrastructure)
+## 18 disclosure and anomalies              (UAP, declassifications — official vs theatrical)
+## 19 science and space                     (launches, discoveries, breakthroughs outside energy)
+## 20 entertainment and culture markets     (box office, awards, streaming, music — markets exist on these)
+## 21 uncategorised                         (anything the writer saw that mattered and fits nowhere — rule 4's "report what you saw")
 
 Each item, one line:
 - [HH:MM local] [observed|claim|theory] [official|press|solo|social|model-only] what happened — source URL — money: <polymarket slug | ticker | asset | none>

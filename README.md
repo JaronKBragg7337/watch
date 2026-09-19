@@ -23,7 +23,7 @@ beyond the ones below — each of which he decided line by line (the bracket rec
 `official-watch-briefs` stays exactly as it is — the clean official-sources-only instrument. Nothing here replaces it.
 
 ## The format
-`FORMAT.md`. Same headings for every writer so the organizer does not care who wrote it. Every item is labelled
+`FORMAT.md` — 21 domains (Orchestra's 8, plus 13 Jaron added on 2026-09-18; nothing dropped). Same headings for every writer so the organizer does not care who wrote it. Every item is labelled
 observed / claim / theory, carries a source class (official / press / solo / social / model-only — a label, not a rank), a time,
 a link, and a `money:` tag when it touches a market, an asset, or a resolution rule.
 

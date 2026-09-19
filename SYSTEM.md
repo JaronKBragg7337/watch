@@ -50,7 +50,7 @@ What is NOT a rule: "only Grok touches money" is a description of today's wiring
 - **Bounties as a revenue lane.** Dormant (the scan runs daily, nothing has been acted on in 10 days). Not being pushed.
 
 ## Open, undecided (do not infer)
-The domain list: Jaron says 11 is too small (sports, domestic politics, weather/disasters, health, courts, outages, disclosure, science, culture markets, and an 'uncategorised' bucket are proposed, 2026-09-18 evening, awaiting his bracket). Whether Bridge becomes the organizer. Kraken lane
+Domains: decided — 21 (additions only, nothing dropped). Whether Bridge becomes the organizer. Kraken lane
 timing. Kimi. Hourly vs daily cadence for the organizer (his lean: collectors daily, organizer and trader hourly, because usage is
 the currency that pays for all of it).
 
