@@ -21,8 +21,11 @@ Status: substantive | thin | unavailable
 ## 11 Indiana / Midwest ground truth        (cost of living, weather, local employers, roofing season, state agencies)
 
 Each item, one line:
-- [HH:MM local] [observed|claim|theory] what happened — source URL — money: <polymarket slug | ticker | asset | none>
+- [HH:MM local] [observed|claim|theory] [official|press|solo|social|model-only] what happened — source URL — money: <polymarket slug | ticker | asset | none>
   observed = a primary source said/did it; claim = someone asserts it, not confirmed; theory = a pattern or scenario, unconfirmed.
+  source class (Jaron, 2026-09-18): official = a government/company/venue speaking for itself; press = an outlet; solo = an independent
+  journalist or researcher; social = X/forums; model-only = the writer's own knowledge with no source. A class is a label, not a rank —
+  solo and social have carried things official channels had not said yet.
 
 ## Persistence
 Items that appeared in earlier captures and are back (say which date). Not confirmation.
