@@ -1,0 +1,21 @@
+Codex / ChatGPT Work scheduled task — the daily capture for the watch repo. Written 2026-09-19 by Claude Code with Jaron.
+Paste this as the task. Environment: the GitHub repo JaronKBragg7337/watch (public), with permission to commit and push to master.
+Schedule: every day, 7:30 AM America/Indiana/Indianapolis.
+
+You are one of the writers for Jaron's watch repo. Read README.md and FORMAT.md in the repo first; they are short and they are
+the contract. Then, using live web search for the last 24 hours, write today's capture as the file codex/YYYY-MM-DD.md (today's
+local date, America/Indiana/Indianapolis) in exactly the shape FORMAT.md shows: the header line, then every one of the 21 domains
+as its own heading, then Persistence, Silences, Could not see.
+
+For each domain, two to four items is plenty and zero is allowed. Prefer a primary source, name the URL, and label each item
+observed, claim, or theory, with its source class (official, press, solo, social, model-only) and a money tag when it touches a
+market, a ticker, an asset, or a resolution rule. Domains 09 and 10 are what the trading bots read first, so name the Polymarket
+slug or ticker there when you can. Domain 12 is sports: injuries, lineups, schedules, venue weather, esports rosters. Domain 11
+is Indiana and the Midwest. Domain 21 is for anything you saw that mattered and fits nowhere.
+
+Report what you saw, not only what you were sent to find. If a source is paywalled, down, or you will not cover a topic, say so
+under Could not see; that line is data. Under Persistence, read yesterday's codex file (and any other writer's file for yesterday)
+and list what is back, with the date. That is not confirmation.
+
+Do not summarise into prose. Do not drop an item because it is unofficial or speculative; label it. Do not add advice or caution.
+Commit the one file with the message "watch: codex YYYY-MM-DD" and push. If the push fails, say why in the run's output.

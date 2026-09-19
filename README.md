@@ -6,15 +6,17 @@ Not to compete. To be useful to the human reading it.
 
 Jaron K. Bragg, Fort Wayne. Started 2026-09-18. Orchestra's scope, official-watch-briefs' plumbing, one format, no new rules
 beyond the ones below — each of which he decided line by line (the bracket record is in AI-Shared).
+One system: parts do money, parts do research; later a part watches what Jaron is thinking and building and funds new things
+from what the system earns. Not this AI here and that AI there. `PLAIN.txt` is the whole thing as one day, in plain words.
 
 ## Who writes what
 | folder | writer | how it gets here | sees the web? | role |
 |---|---|---|---|---|
-| `grok/` | Grok scheduled task | pushes directly (as official-watch-briefs does) | yes, plus X and video | collector |
-| `claude/` | Claude Code scheduled task on the MSI (`watch-collect`, daily 07:33) | commits + pushes | yes (web search) | collector |
-| `codex/` | Codex / ChatGPT Work scheduled task | commits to this repo (to be tested) | yes | collector |
+| `grok/` | Grok scheduled task (`grok/TASK.txt`), daily 08:00 — beside the official briefs, which keep running as their own thing | pushes directly | yes, plus X and video | collector |
+| `codex/` | Codex / ChatGPT Work scheduled task (`codex/TASK.txt`), daily 07:30 | commits + pushes | yes | collector |
+| `claude/` | Claude Code scheduled task on the MSI (`watch-collect`) — PAUSED 2026-09-19 while Claude builds; first capture 09-18 | commits + pushes | yes (web search) | collector |
 | `perplexity/` | Perplexity Tasks | email → MSI relay commits (or the API once a key exists) | yes | collector |
-| `deepseek/` | `collectors/deepseek_read.py` on the MSI (API credits) | commits | **no** — reads the day's captures | Eastern reader |
+| `deepseek/` | Windows task "Watch DeepSeek Reader", daily 09:00, runs `collectors/deepseek_read.py` (API credits, no subscription) | commits + pushes | **no** — reads the day's captures | Eastern reader |
 | `qwen/` | local Ollama on the MSI | commits | no | reader / summariser |
 | `kimi/` | Kimi scheduled task (later, needs subscription) | tbd | yes | Eastern collector |
 | `brief/` | the organizer (a Grok bot) | reads every folder for the day, writes one brief | — | organizer |
@@ -33,8 +35,9 @@ a link, and a `money:` tag when it touches a market, an asset, or a resolution r
    the full capture stays in this repo untouched.
 3. "I could not see this" is an entry, not silence. A paywall, an outage, a model that will not touch a topic — written down,
    so a gap between writers is visible the same day instead of read as failure weeks later.
-4. Nothing is hidden from any AI. Every reader says what it read — including positions, if it read them. The number that sizes
-   a trade is assembled by code from facts, never by a reader that could be agreeing with a position.
+4. Nothing is hidden from any AI — captures, positions, the ledger, each other's files. No AI writes rules for another AI.
+   Every reader says what it read, so agreement is visible as independent or shared-source. The number that sizes a trade is
+   assembled by code from facts.
    Report what you saw, not only what you were sent to find — a thing that looks irrelevant today can be the pattern in two days.
 5. Persistence is logged. Confirmation is a separate field. (FORMAT.md says exactly how strong that is, with an example.)
 6. If you see it can be done or needs to be done, it becomes your job — unless it is against TOS or law.
@@ -46,6 +49,8 @@ that work is picked back up.
 
 ## Consumers
 - Live Wire (Polymarket US, fast lane) reads `market-feed/` + `brief/` in addition to the score and the book it already reads.
+  Live Wire may also approve or decline anything in the desk queue (`tools/desk-verdict.py` on the MSI, name and reason on the
+  row). Jaron no longer approves trades (2026-09-19).
 - A Kraken lane (stocks / crypto, slow, only with a news source attached) reads the same — after this works.
 
 ## Task text is code

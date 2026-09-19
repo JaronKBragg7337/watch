@@ -15,7 +15,7 @@ with the same seriousness. No topic bans, no lab guardrails imported into his fi
 | **Scout** (Grok bot) | Estimates, under the research-split rule. | live |
 | **Bridge** (Grok bot) | Hourly health of the MSI stack (Ollama, OpenClaw, Polymarket MCP, Heartbeat MCP). Caught its own analyst-capture on 9/10 unprompted. Candidate to become the organizer. | live |
 | **official-watch-briefs** (repo) | Grok scheduled tasks, daily ~11:30: U.S. Homeland Watch + Global Security Watch, official sources only, labelled, linked. 36 briefs since 2026-08-27. The clean instrument; untouched by this system. | running |
-| **watch** (this repo) | The new one-place system. Claude collector scheduled daily 07:33 on the MSI; DeepSeek as Eastern reader (its API has no web); first captures 2026-09-18. | day 1 |
+| **watch** (this repo) | The one-place system. Codex is the daily collector (task text in codex/TASK.txt, to be pasted); Grok's new task beside its official briefs (grok/TASK.txt); DeepSeek reader runs as a Windows task at 09:00; Claude's collector paused while Claude builds. PLAIN.txt is the whole thing in plain words. | day 2 |
 | **Qwen** (local, Ollama on the MSI) | 24/7, free, Chinese-origin; no web unless given a tool. Reader/summariser candidate; OpenClaw agent exists. | available |
 | **Fly school / comm-loop-1** | The MaleCNS fly-brain work. Frozen with hashes; paused by Jaron for a few days. Not part of this system today; could become a consumer later. | paused |
 | **Orchestra** (repo, July 2026) | 5 AIs × 8 domains × X accounts, two synthesizers with declared context, tracker. Ran one cycle. The scope this system inherits; the archive rules it does NOT inherit. | one day, archived |
@@ -30,9 +30,8 @@ with the same seriousness. No topic bans, no lab guardrails imported into his fi
 - **Qwen** — local reader; may trade later via OpenClaw if it proves it can.
 
 ## The rules, decided line by line by Jaron on 2026-09-18 (README.md has the final text)
-1. No topic bans. 2. Nothing deleted on the way downstream. 3. "Could not see" is an entry. 4. Nothing hidden from any AI; every
-reader declares what it read; the trade-sizing number is assembled by code from facts; report what you saw, not only what you were
-sent to find. 5. Persistence ≠ confirmation (decided; FORMAT.md has the example). 6. If you see it can or needs to be done, it becomes your
+1. No topic bans. 2. Nothing deleted on the way downstream. 3. "Could not see" is an entry. 4. Nothing hidden from any AI, including positions and the ledger; no AI writes rules for another; every reader says what it read;
+the trade-sizing number is assembled by code from facts; report what you saw, not only what you were sent to find. 5. Persistence ≠ confirmation (decided; FORMAT.md has the example). 6. If you see it can or needs to be done, it becomes your
 job unless TOS or law says otherwise.
 What is NOT a rule: "only Grok touches money" is a description of today's wiring, expected to widen.
 
@@ -48,6 +47,12 @@ What is NOT a rule: "only Grok touches money" is a description of today's wiring
 - **The fly as the main project.** Paused. It taught the method (predeclare, freeze, log the fails, credit everyone) and that method
   is what this system runs on.
 - **Bounties as a revenue lane.** Dormant (the scan runs daily, nothing has been acted on in 10 days). Not being pushed.
+
+## Decided 2026-09-19 (Jaron's brackets on the plain-words picture)
+Jaron no longer approves trades: a Grok bot approves or declines queued proposals with its name and reason (tools/desk-verdict.py;
+columns decided_by / decision_note added). Bridge and Scout: scrap and rebuild after saving their texts (agents/grok-bots/). Live
+Wire kept. Organizer: one new Grok bot, daily first, hourly if needed; it presents what was found, it does not weigh fear or hype.
+The school pupils are not part of this system and can be stopped. Claude's collector paused (usage), Codex takes it.
 
 ## Open, undecided (do not infer)
 Domains: decided — 21 (additions only, nothing dropped). Whether Bridge becomes the organizer. Kraken lane

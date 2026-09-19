@@ -1,0 +1,58 @@
+The whole system, in plain words. Written 2026-09-19 by Claude Code from Jaron's brackets. No headings, no bullets, just the day.
+
+This is one system. Parts of it do money, parts of it do research, and later a part of it will watch what Jaron is thinking and
+building and fund new things from what the system earns. It is not this AI doing this over here and that AI doing that over
+there. Everything lands in one place and everything can read everything. The only thing left out is caution that was never his.
+
+It starts at night while he sleeps. The MSI is on.
+
+In the morning the writers wake up, each on its own schedule. Codex searches the web across twenty-one domains and writes one
+file into the watch repo under its own name with today's date. Grok does the same an hour later, and Grok can also see X and
+watch video, so its file has things nobody else's does. Grok's homeland and global security briefs keep running exactly as they
+have for a month, in their own repo, as their own thing; the new Grok task is a second job, part of this system. Claude can be a
+writer too and was the first one, but Claude is building right now and its usage is the tightest, so its daily task is paused
+until building is simple. Later Perplexity's file arrives by email and the MSI copies it in, and Kimi writes its own when Jaron
+has it. Each writer is just another file with another name in the same folder. Writers can be added or removed and nothing else
+changes, though each new one will need its own tweaks.
+
+Every line in every file says what happened, when, where it came from, whether it was observed or claimed or theory, what kind
+of source it was, and whether it touches a market. If a writer could not see something, it says so, and that line counts as
+information. If something showed up yesterday and is back today, it says so, and that is not confirmation.
+
+At nine the MSI runs DeepSeek. DeepSeek cannot see the web, so it reads what the writers wrote and writes its own file next to
+them: where the writers overlap, where they differ, and what someone reading from the other side of the world would weigh
+differently. That run is a plain script on the machine; it costs API credits, not anyone's subscription.
+
+By mid-morning there are several files for today, all in one format, all public, all readable by any AI Jaron hands the link to.
+
+Then the organizer. This is one Grok bot with one job. Once a day, it reads every file for today and writes two things. The
+first is the brief, one page in words, for Jaron: what was found, by whom, where writers overlapped, where they differed, what
+nobody could see. It does not decide what deserves fear or hype; it presents what was found and where it came from. The second
+thing is the market feed, a short list of lines, each naming a Polymarket market or a stock or a coin, what happened, why that
+market's own rules might care, a lean of yes or no or nothing, and a link back to the file it came from. That list is for the
+trader. Daily first. If more organizing is needed after a few days, it moves to hourly.
+
+Then the trader. Live Wire stays exactly as it is. It watches live scores and order books, finds a gap, places through the desk
+on the MSI, babysits, and kills. The one addition is that before it decides it also reads today's market feed. It still sizes
+the trade itself. The desk still places it. The key never leaves the MSI. Live Wire may also approve or decline anything sitting
+in the desk's queue, with its name and its reason on the row. Jaron no longer has to approve anything. If a Grok bot is allowed
+to do a thing, it is allowed to do it here.
+
+Every AI can read everything, including positions and the ledger. Nothing is hidden from any of them, and no AI writes rules
+for another one. Each reader says what it read, so that when two of them agree it is visible whether they agreed on their own
+or because they read the same thing.
+
+In the evening, whatever settled is written to the ledger like it already is.
+
+Kraken is the same shape, later. A second, slower trader reads the same feed and acts on stocks and crypto only when there is a
+news line attached to the asset. The key has to be found on the machine first.
+
+The Grok bots built for the old system, Bridge and Scout, are scrapped and rebuilt; their old routines were paying for work
+nobody reads. Their descriptions and routines get copied into this repo first so the words are not lost. Live Wire is kept.
+
+The fly school pupils and the MSI health check are not part of this system. The pupils can be stopped without losing anything;
+their memories are on disk and in the cloud, and their forgetting rule had already flattened them. The health check that watches
+the desk's services stays, because the desk needs it.
+
+That is the loop. Writers in the morning, the reader at nine, the organizer at midday, the trader all day, the ledger at night.
+The repo is the only thing in the middle, and every part can be swapped without touching the others.
