@@ -1,0 +1,14 @@
+{
+ "day": "2026-09-18",
+ "writers": [
+  "claude",
+  "deepseek"
+ ],
+ "hedges_added": {},
+ "feed_lines": 5,
+ "feed_source_not_in_captures": 1,
+ "feed_bad_label": 0,
+ "capture_money_items": 38,
+ "money_items_not_in_feed": 26,
+ "wrap_score": 1
+}

@@ -1,0 +1,9 @@
+{
+  "bitcoin": "bc1qszpdhrmupcw9ncnjfy2v0v3k3t6t63g54yva9h",
+  "tao": "5Gnbw28omasTbDQ51G6UJ9CUtiWDKENMYFy49MX3czKM8ZfD",
+  "sol": "F1Rc5a2Dhe3VoddJXogmRYGUvax661N2st7PvsdVeb58",
+  "xrp": "rU6CSv286Xf2v6yRw854NAVqD8uTPuBSTe",
+  "xrp_destination_tag": "2650773147",
+  "source": "Jaron designated receive-only 2026-09-20",
+  "rules": "no keys, no signing, no pay-to-receive"
+}
