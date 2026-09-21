@@ -32,3 +32,4 @@ Receipts verified: **0** (receipts/ empty on purpose)
 
 2026-09-21 18:05 ET — P03 Autonomys: WALL. The official form is a Google Form behind Google sign-in; the MSI browser pane has no Google session and an AI does not sign in for Jaron. Paste-ready answers written: outreach/P03-AUTONOMYS-paste-ready.txt. Jaron submits from his phone, or signs in once on the MSI and Claude Code fills it.
 2026-09-21 18:05 ET — 0G (Lane C): CLOSED. guild.0gfoundation.ai says "Applications to this program are currently closed." Process when open: post project at hall.0g.ai (Guild on 0G 2.0 category), then a 5-step form; KYC; $10K-$1M. Check back; the P03 text adapts to it in minutes.
+2026-09-21 19:15 ET — P03 Autonomys: SUBMITTED (Google Form; 'Your response has been recorded'; copy to acsassociation7337@gmail.com). Ask $10,000 in 3 milestones. Awaiting discovery-phase contact. Credit: draft Elons Twin (Grok), form fill Claude Code, decision and sign-in Jaron.

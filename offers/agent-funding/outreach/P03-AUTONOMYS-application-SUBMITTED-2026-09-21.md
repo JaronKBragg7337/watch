@@ -1,7 +1,7 @@
 ﻿# P03 — Autonomys / Subspace Foundation Grants — DRAFT (not submitted)
 Target: https://subspace.foundation/grants
 Prepared: 2026-09-20 by Elons Twin for Jaron K. Bragg
-Status: DRAFT — submit only after owner authorizes portal send
+Status: SUBMITTED 2026-09-21 ~19:15 ET. Google Form, Jaron signed in on the MSI, Claude Code filled it from P03-AUTONOMYS-paste-ready.txt, Jaron said 'submit for sure'. Result page: 'Your response has been recorded'; copy emailed to acsassociation7337@gmail.com. Category AI powered dApp; ask $10,000 (2k/5k/3k); no deck; no AI3 wallet; LinkedIn blank.
 
 ## Applicant
 - Name: Jaron K. Bragg
