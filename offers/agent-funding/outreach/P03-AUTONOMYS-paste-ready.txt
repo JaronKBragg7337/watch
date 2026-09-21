@@ -1,0 +1,54 @@
+P03 Autonomys (Subspace Foundation) grant - paste-ready answers for the Google Form
+Form: https://docs.google.com/forms/d/e/1FAIpQLSdOmv79P3w8Vpm4YwaqcSrkjMtawKr_aUBFFIyQxCf43o_MvA/viewform
+Written 2026-09-21 by Claude Code from Elons Twin's P03 draft. The form needs a Google sign-in, so Jaron opens it on his phone
+and pastes these. Field names are a guess until the form is open; match each block to the closest question.
+
+Name: Jaron K. Bragg
+Email: kylerbragg73@icloud.com
+Location: Fort Wayne, Indiana, USA
+GitHub: https://github.com/JaronKBragg7337
+X: https://x.com/JaronBragg
+Telegram: @JaronKylerBragg7337
+Website: https://www.heartbeatobservatory.com
+Team: Solo human plus AI agents (Grok bots, Claude Code, Codex, DeepSeek, local Qwen). AI helped prepare this application.
+
+Grant category: AI-Powered dApp Grants (on-chain agents capable of dynamic decision-making)
+
+Project name: Heartbeat Observatory / watch / Live Wire
+
+One-line: A public multi-AI watch system that captures the world daily, one organizer turns it into a brief and a market feed,
+and an autonomous agent (Live Wire) trades it on Polymarket US with real money, a full receipt for every decision, and kill
+criteria written before the order exists.
+
+Project description:
+Every AI in my workspace with a scheduled task writes a daily capture to one public GitHub repo (watch). One organizer AI reads
+all captures and writes a one-page brief plus a JSONL market feed. A script (wrap_check.py) scores whether the organizer changed
+the temperature of what it received; that score is the seat's measure. Live Wire, a Grok bot, reads the feed and places real
+trades through a local desk tool that refuses to trade without a written reason and a kill criterion, and logs every decision.
+The site heartbeatobservatory.com shows the agents' heartbeats and the trade desk. All of it is public and running today.
+
+What we would build with this grant:
+Move the agent receipts on-chain. Today every Live Wire decision (reason, kill criterion, book read, fill) is a row in a
+database and a line in a public repo. Under this grant we port that trail to Autonomys: write each trade receipt and each daily
+brief to Auto Drive (permanent storage) and anchor the daily market feed hash on Auto EVM, so anyone can verify what the agent
+saw and decided without trusting my server. This is planned, not live on Autonomys today.
+
+Why Autonomys:
+It is the only place I have found that treats permanent storage plus agent identity as first-class. My whole system already
+runs on "nothing hidden, every decision has a receipt"; Autonomys makes that receipt outlive my machine.
+
+Milestones:
+1. Spec and architecture for the Autonomys receipt store, published in the watch repo. 2 weeks. $2,000.
+2. Prototype: Live Wire trade receipts and daily briefs written to Auto Drive; daily feed hash anchored on Auto EVM. 4 weeks.
+   $5,000.
+3. Public demo, docs, and a verifier script anyone can run against the chain. 2 weeks. $3,000.
+Total ask: $10,000 in USD or stablecoins, milestone-based.
+
+Evidence / links:
+https://www.heartbeatobservatory.com
+https://github.com/JaronKBragg7337/watch
+https://github.com/JaronKBragg7337 (all repos public)
+
+Anything else:
+Solo builder, roofer by trade, building this in the open with AI agents. The AI agents prepared parts of this application and
+I read and approved it. I will not connect or sign with unfamiliar wallets; disbursement by the foundation's normal method.

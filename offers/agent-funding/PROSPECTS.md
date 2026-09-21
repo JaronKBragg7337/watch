@@ -29,3 +29,6 @@ Receipts verified: **0** (receipts/ empty on purpose)
 
 
 2026-09-21 17:50 ET — P01 GOAT: SUBMITTED via tally.so/r/EkJo42 (Claude Code filled, Jaron approved 'submit'). Answers: Solo; status Live; traction Revenue; GOAT integration = Other (x402/ERC-8004 planned, not live); faucet No; ClawUp No; AI disclosed in final note. Awaiting reply (base grant $2,000). No confirmation id issued.
+
+2026-09-21 18:05 ET — P03 Autonomys: WALL. The official form is a Google Form behind Google sign-in; the MSI browser pane has no Google session and an AI does not sign in for Jaron. Paste-ready answers written: outreach/P03-AUTONOMYS-paste-ready.txt. Jaron submits from his phone, or signs in once on the MSI and Claude Code fills it.
+2026-09-21 18:05 ET — 0G (Lane C): CLOSED. guild.0gfoundation.ai says "Applications to this program are currently closed." Process when open: post project at hall.0g.ai (Guild on 0G 2.0 category), then a 5-step form; KYC; $10K-$1M. Check back; the P03 text adapts to it in minutes.
