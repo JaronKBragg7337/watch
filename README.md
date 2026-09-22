@@ -57,3 +57,7 @@ that work is picked back up.
 ## Task text is code
 Every scheduled prompt in this system stays plain and operational: no fear words, no safety-as-a-vibe, no framing of the human.
 If an output looks softened or steered, the first suspect is a word in the prompt, not the model.
+
+Secrets never go in this repo. Not a key, not a token, not a password, not a manage link that works without a login. Public
+addresses and public URLs are fine and welcome. If a service hands an agent a credential while it is building something here, the
+credential goes on the machine and only the public half is committed. This is a rule for every writer and every bot, not a caution.

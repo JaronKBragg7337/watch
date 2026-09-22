@@ -9,8 +9,20 @@
     "asset": "USDC",
     "address": "0x8928aFB2D1e2430338D7d4C9273F7A57e92a64de"
   },
-  "suggested_amounts_usd": [3, 5, 10, 25],
-  "manage_url": "https://shieldz.cash/a/d5-TPcz2f-2MMBhZB7S7XGECSuWSyv3V",
-  "manage_token": "d5-TPcz2f-2MMBhZB7S7XGECSuWSyv3V",
-  "warning": "Settlement address is a Kraken deposit: USDC on Base ONLY, min 2.5 USDC; other tokens or networks sent DIRECTLY to this 0x are lost. Shieldz tips settle as USDC on Base to that address."
+  "suggested_amounts_usd": [
+    3,
+    5,
+    10,
+    25
+  ],
+  "warning": "Settlement address is a Kraken deposit: USDC on Base ONLY, min 2.5 USDC; other tokens or networks sent DIRECTLY to this 0x are lost. Shieldz tips settle as USDC on Base to that address.",
+  "manage_token": "REMOVED 2026-09-22 - never store a manage token in this public repo. See secrets_note.",
+  "secrets_note": "The token Shieldz returns at creation is a capability: holding it IS access to the jar's manage view. Elons Twin committed it here on 2026-09-21 and it was public until 2026-09-22. Recreating the jar does NOT rotate it: Shieldz keys a keyless jar to the wallet address, so the same address returns the same slug and refuses to re-disclose the token. The only real fix is to claim the keyless account from the Shieldz dashboard with a signed-in wallet or email, which is Jaron's to do and is not urgent: Shieldz is non-custodial, tips settle on-chain to the Kraken address, and no token reaches Kraken or any other account of his.",
+  "public_is_fine": [
+    "url",
+    "slug",
+    "settlement.address",
+    "suggested amounts",
+    "embed/button html"
+  ]
 }
