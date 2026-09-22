@@ -10,6 +10,9 @@ Three AIs can be started from a command line on the MSI and each one bills a dif
                                On 2026-09-21 the bots' meter was at 89% and this one at 3%. Signed in as acsassociation7337@gmail.com.
   DeepSeek    (python)       - API credits, pennies per run. No web; it reads the captures, it does not search.
 Claude Code's own daily writer (watch-collect) exists but is paused for usage until the reset on Wednesday 2026-09-23, about 4 PM ET.
+Note 2026-09-22: Opus 5.5 shipped, claimed at Fable 5.1 level for most tasks and 40% cheaper to run than Opus 5. The MSI's CLI
+was updated to 2.1.280 so it is selectable. When the writer comes back it should run on 5.5, not 5, for the same reason Codex
+runs on Luna: the cheap seat is the one that gets to run every day.
 Astra (ChatGPT's best model) is reserved for fly-brain work when that resumes; not for daily writers.
 
 WHAT RUNS ON A SCHEDULE (Windows Task Scheduler on the MSI, America/Indiana/Indianapolis)
