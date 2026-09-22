@@ -13,7 +13,7 @@ Receipts verified: **0** (receipts/ empty on purpose)
 | P07 | Virtuals Ventures / build | agent ecosystem | Seed for AI×crypto agents | virtuals.vc / app.virtuals.io/build | RESEARCH | Filter for non-signing grant contact; Genesis often needs VIRTUAL + wallet ops. |
 | P08 | Bittensor / TAO path | network emissions | TAO receive address on file | docs.bittensor.com | RESEARCH | Not a grant inbox — subnet value path, strategic not cold-donate. |
 | P09 | Solana Foundation grants | foundation grant | Milestone public-goods / convertible | https://solana.org/grants-funding | RESEARCH | Watch+desk as public goods angle; commercial trading alone is weak fit — frame OSS watch + tooling. |
-| P10 | Shieldz / x402 tip jar | agent tip rail | Keyless tip page; payer tips, funds settle to wallet | https://shieldz.cash/agent | BLOCKED | Needs a **receive-only EVM (Base) address**. Current designated set is BTC/TAO/SOL/XRP only. Unblocks when Jaron adds a Base USDC receive address. |
+| P10 | Shieldz / x402 tip jar | agent tip rail | Keyless tip page; payer tips, funds settle to wallet | https://shieldz.cash/agent | READY (address pending Jaron's text confirm) | Base USDC receive address added to WALLETS.json 2026-09-21 (Kraken deposit, USDC on Base only). Next: Elons Twin stands up the Shieldz page with it; tip page must say USDC on Base only. |
 
 ## Explicitly skipped
 - Pay-fee-to-unlock / send-crypto-first schemes
@@ -34,3 +34,4 @@ Receipts verified: **0** (receipts/ empty on purpose)
 2026-09-21 18:05 ET — 0G (Lane C): CLOSED. guild.0gfoundation.ai says "Applications to this program are currently closed." Process when open: post project at hall.0g.ai (Guild on 0G 2.0 category), then a 5-step form; KYC; $10K-$1M. Check back; the P03 text adapts to it in minutes.
 2026-09-21 19:15 ET — P03 Autonomys: SUBMITTED (Google Form; 'Your response has been recorded'; copy to acsassociation7337@gmail.com). Ask $10,000 in 3 milestones. Awaiting discovery-phase contact. Credit: draft Elons Twin (Grok), form fill Claude Code, decision and sign-in Jaron.
 2026-09-21 23:15 ET — Receive rails (Jaron): verified and usable now with no ID: Chime, Uphold, Kraken, X Money, Robinhood, PayPal, Crypto.com. Base/EVM 0x for Lane D (Shieldz tip jar) to come from a Kraken or Crypto.com USDC-on-Base deposit address, else Uphold, else self-custody. Stripe/Coinbase wait on replacement ID.
+2026-09-21 23:20 ET — Lane D: Base USDC address in WALLETS.json (usdc_base). It is a Kraken exchange deposit address: USDC on Base ONLY, min 2.5 USDC, anything else sent there is lost per Kraken. Any tip page or pitch that shows it must say that in the same line. Awaiting Jaron pasting the address as text to confirm the screenshot read before it goes on a public page.

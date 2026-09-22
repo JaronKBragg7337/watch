@@ -4,6 +4,8 @@
   "sol": "F1Rc5a2Dhe3VoddJXogmRYGUvax661N2st7PvsdVeb58",
   "xrp": "rU6CSv286Xf2v6yRw854NAVqD8uTPuBSTe",
   "xrp_destination_tag": "2650773147",
-  "source": "Jaron designated receive-only 2026-09-20",
-  "rules": "no keys, no signing, no pay-to-receive"
+  "source": "Jaron designated receive-only 2026-09-20 (BTC/TAO/SOL/XRP) and 2026-09-21 (USDC on Base)",
+  "rules": "no keys, no signing, no pay-to-receive",
+  "usdc_base": "0x8928aFB2D1e2430338D7d4C9273F7A57e92a64de",
+  "usdc_base_note": "Kraken exchange deposit address. USDC on the Base network ONLY (min 2.5 USDC). Kraken says other tokens or other networks sent here are lost. Added 2026-09-21 from Jaron's Kraken app."
 }
