@@ -57,6 +57,9 @@ OpenAI announced GPT-6 Sol and GPT-6 Luna, described as bringing GPT-6 Astra's s
 Tested the same hour from the MSI: `codex exec -m gpt-6-luna` and `-m gpt-6-sol` both return
 "The 'gpt-6-<name>' model is not supported when using Codex with a ChatGPT account."
 That is a plan refusal, not an unknown-model error, so the ids are real and the ChatGPT-account path does not carry them yet
-(Astra rolled out to API/enterprise first too). Nothing to change today. Recheck in a few days: if GPT-6 Luna lands on the
-subscription path at anything like GPT-5.6 Luna's price, the 07:30 writer gets better for free and should move to it.
-
+(Astra rolled out to API/enterprise first too). RESOLVED the same afternoon. The refusal was a stale CLI, not a plan limit: Jaron saw 6 Luna and 6 Sol in the Codex app's
+model picker, the CLI was on 0.153.4 while 0.155.1 was out, and after `scoop update codex` the same call returned normally.
+Prices from OpenAI's own card: Astra $10/$50, Sol $2/$10, Luna $0.10/$0.50 per million - GPT-6 Luna is HALF the price of
+GPT-5.6 Luna ($0.20/$1.20) and built on Astra. OpenAI says the 50% cut is permanent and makes subscription usage go further
+too. The 07:30 watch writer is pinned to gpt-6-luna as of 2026-09-22 (collectors/run_codex.ps1). Lesson worth keeping: when a
+model is refused by name, check the client version before believing the refusal.
