@@ -42,3 +42,13 @@ WHAT THIS CHANGES FOR THE GROK BOTS
 ALSO ON THE MACHINE, NOT WIRED YET
   Kimi Desktop - Kimi's own agent runtime with a local gateway (port 18679 when the app is open), built-in skills, and a job
   store. Jaron: "it's definitely its own thing." To be tested as a fourth writer when the app is open. Its plan, not Jaron's.
+
+ONE LINE THE CLAUDE SEAT DRAWS FOR ITSELF (2026-09-22)
+Anthropic's Consumer Terms section 3 bars relying on the service to buy or sell securities, or to give or receive advice about
+securities, commodities, derivatives or other financial products, because Anthropic is not a broker-dealer or registered
+investment adviser. Placing orders was already refused in code (Q-018, desk-trade.py). From today the Claude writer also leaves
+domains 09 and 10 empty and never writes a lean, slug, ticker or money tag aimed at a tradable contract; it says so under
+Silences. This is a structural line, not a judgement per item, and it is only about the Claude seat. Codex, Grok, DeepSeek and
+the organizer are governed by their own providers' terms and are unchanged. Jaron has the open question of how far the
+"receive advice" half reaches; this is the conservative version while it is open.
+
