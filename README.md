@@ -13,7 +13,7 @@ from what the system earns. Not this AI here and that AI there. `PLAIN.txt` is t
 | folder | writer | how it gets here | sees the web? | role |
 |---|---|---|---|---|
 | `grok/` | Grok scheduled task (`grok/TASK.txt`), daily 08:00 — beside the official briefs, which keep running as their own thing | pushes directly | yes, plus X and video | collector |
-| `codex/` | Codex / ChatGPT Work scheduled task (`codex/TASK.txt`), daily 07:30 | commits + pushes | yes | collector |
+| `codex/` | Codex CLI on the MSI (`codex/TASK.txt` via `collectors/run_codex.ps1`, Luna, ChatGPT subscription), Windows task daily 07:30 | commits + pushes | yes | collector |
 | `claude/` | Claude Code scheduled task on the MSI (`watch-collect`) — PAUSED 2026-09-19 while Claude builds; first capture 09-18 | commits + pushes | yes (web search) | collector |
 | `perplexity/` | Perplexity Tasks | email → MSI relay commits (or the API once a key exists) | yes | collector |
 | `deepseek/` | Windows task "Watch DeepSeek Reader", daily 09:00, runs `collectors/deepseek_read.py` (API credits, no subscription) | commits + pushes | **no** — reads the day's captures | Eastern reader |
