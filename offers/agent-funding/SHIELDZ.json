@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-21",
+  "created_by": "Elons Twin (keyless Shieldz API)",
+  "object": "tip_jar",
+  "slug": "tip-354e0ded9a592c31",
+  "url": "https://shieldz.cash/tip/tip-354e0ded9a592c31",
+  "settlement": {
+    "chain": "BASE",
+    "asset": "USDC",
+    "address": "0x8928aFB2D1e2430338D7d4C9273F7A57e92a64de"
+  },
+  "suggested_amounts_usd": [3, 5, 10, 25],
+  "manage_url": "https://shieldz.cash/a/d5-TPcz2f-2MMBhZB7S7XGECSuWSyv3V",
+  "manage_token": "d5-TPcz2f-2MMBhZB7S7XGECSuWSyv3V",
+  "warning": "Settlement address is a Kraken deposit: USDC on Base ONLY, min 2.5 USDC; other tokens or networks sent DIRECTLY to this 0x are lost. Shieldz tips settle as USDC on Base to that address."
+}
