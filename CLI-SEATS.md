@@ -52,3 +52,11 @@ Silences. This is a structural line, not a judgement per item, and it is only ab
 the organizer are governed by their own providers' terms and are unchanged. Jaron has the open question of how far the
 "receive advice" half reaches; this is the conservative version while it is open.
 
+GPT-6 SOL AND LUNA (2026-09-22, ~2:17 PM ET)
+OpenAI announced GPT-6 Sol and GPT-6 Luna, described as bringing GPT-6 Astra's strengths into faster and cheaper models.
+Tested the same hour from the MSI: `codex exec -m gpt-6-luna` and `-m gpt-6-sol` both return
+"The 'gpt-6-<name>' model is not supported when using Codex with a ChatGPT account."
+That is a plan refusal, not an unknown-model error, so the ids are real and the ChatGPT-account path does not carry them yet
+(Astra rolled out to API/enterprise first too). Nothing to change today. Recheck in a few days: if GPT-6 Luna lands on the
+subscription path at anything like GPT-5.6 Luna's price, the 07:30 writer gets better for free and should move to it.
+
