@@ -9,7 +9,7 @@ Three AIs can be started from a command line on the MSI and each one bills a dif
   Grok Build  (grok -p ...)  - SuperGrok / grok.com subscription, model grok-4.7. Separate meter from the Grok bots' meter.
                                On 2026-09-21 the bots' meter was at 89% and this one at 3%. Signed in as acsassociation7337@gmail.com.
   DeepSeek    (python)       - API credits, pennies per run. No web; it reads the captures, it does not search.
-Claude Code's own daily writer (watch-collect) exists but is paused for usage until the Wednesday 2026-09-24 reset.
+Claude Code's own daily writer (watch-collect) exists but is paused for usage until the reset on Wednesday 2026-09-23, about 4 PM ET.
 Astra (ChatGPT's best model) is reserved for fly-brain work when that resumes; not for daily writers.
 
 WHAT RUNS ON A SCHEDULE (Windows Task Scheduler on the MSI, America/Indiana/Indianapolis)
