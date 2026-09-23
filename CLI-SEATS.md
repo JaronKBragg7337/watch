@@ -63,3 +63,14 @@ Prices from OpenAI's own card: Astra $10/$50, Sol $2/$10, Luna $0.10/$0.50 per m
 GPT-5.6 Luna ($0.20/$1.20) and built on Astra. OpenAI says the 50% cut is permanent and makes subscription usage go further
 too. The 07:30 watch writer is pinned to gpt-6-luna as of 2026-09-22 (collectors/run_codex.ps1). Lesson worth keeping: when a
 model is refused by name, check the client version before believing the refusal.
+
+EFFORT DOES NOT FOLLOW THE MODEL FLAG (2026-09-23)
+Measured, not guessed. `~/.codex/config.toml` sets `model_reasoning_effort = "max"`, but passing `-m gpt-6-luna` on the
+command line does not carry it: the 2026-09-23 07:32 run reported "reasoning effort: high" in its own header. Result, same
+task and same 24 headings: 09-22 on 5.6 Luna at max produced 49 observed items and 59 source URLs in 19,554 bytes; 09-23 on
+6 Luna at high produced 17 observed items and 23 sources in 9,399 bytes. Less than half.
+GPT-6 Luna does accept max when it is passed explicitly (`-c model_reasoning_effort=max`), so this was a harness mistake by
+Claude Code on 09-22, not a weaker model. The runner now passes both flags together. The 5.6-vs-6 comparison is INCONCLUSIVE
+until a max-effort 6 Luna run exists; 09-24 is the first clean one.
+Rule: when you pin a model on the command line, pin the effort with it, and read the run header to confirm what actually ran.
+
