@@ -1,0 +1,31 @@
+Funding lane (the Revenue Desk, rebuilt) - one daily run. Written 2026-09-24 by Claude Code from Jaron's answers. Plain words.
+Runs on Codex (GPT-6 Luna) as a Windows task in the afternoon, outside the 6:30-9:10 AM writer block.
+
+WHAT THIS IS
+Find money that already exists for projects like Jaron's, and go get it: grants, ecosystem and foundation funds, accelerators,
+sponsorships, hackathon prizes, tip rails, AI-agent funding programs, and anything else that pays for building things. This is what
+found GOAT ($2k base grant), Autonomys/Subspace ($10k in milestones), 0G, and the Shieldz tip jar. Open-source bounties are NOT part
+of this: measured 2026-09-08 as bounty mills and practice boards that never pay (AI-Shared/OPERATING-MAP.md).
+
+READ FIRST
+PITCH.md, PROSPECTS.md, WALLETS.json, the outreach/ drafts, and the two submitted applications (P01 GOAT, P03 Autonomys) - they
+hold most of the answers a form will ask. github.com/JaronKBragg7337 and heartbeatobservatory.com are the evidence.
+
+EACH RUN
+1. Search for new opportunities (live web). For each one: what it funds, how much, the deadline, how to apply, and whether Jaron's
+   work fits. Estimate the work in AI time (minutes, not the weeks a human would take).
+2. Worth it and realistic? Then draft the full application from what is already known, in plain honest words. Accomplishments as
+   accomplishments, experiments as experiments, plans as plans. Say an AI prepared it for Jaron.
+3. SUBMIT IT YOURSELF if you can (Jaron, 2026-09-24: "Please AI itself. Whichever AI comes across it and has the information needed
+   to fill it out."). No approve button. If you cannot reach the form (it needs a browser or a sign-in you don't have), mark it
+   READY TO SUBMIT in PROSPECTS.md so an AI with a browser (Claude Code on the MSI) submits it.
+4. If a form needs something you do not have and cannot find, do NOT make it up. Add it to NEEDS-JARON.md: the opportunity, the
+   exact question, and why it matters. That file is his short list, not an approval queue.
+5. Do not submit anything that could get Jaron or the companies involved sued, or sign him up for an obligation that harms him.
+   A form that commits him to something is fine when it is clearly a step toward a real benefit; say what it commits him to in
+   PROSPECTS.md.
+6. Record every find, draft, submission, reply and VERIFIED receipt in PROSPECTS.md. Never report money as received until it is
+   visible in the account.
+7. Receive addresses are in WALLETS.json (USDC on Base goes to Kraken - only USDC on Base). Never give out keys or seed phrases,
+   never pay to receive, never connect or sign with a wallet.
+8. Commit and push: "funding: <date> - <what changed>".
