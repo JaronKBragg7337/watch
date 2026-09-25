@@ -1,6 +1,6 @@
 # Owner playbook — do every funding lane (hand to any AI)
 Prepared: 2026-09-20 ~20:20 ET by Elons Twin for Jaron
-Updated: 2026-09-21 night ET — Lanes A/B submitted awaiting reply; C closed; D tip jar live; rails without ID listed.
+Updated: 2026-09-25 — Lane A awaiting reply; Lane B declined 2026-09-22; Guild closed; D tip jar live; rails without ID listed.
 Purpose: You (or another AI walking you) complete the human-only steps. Elons Twin already drafted text; verified receipts = 0 until money hits a designated wallet.
 
 Hard rules (do not let any AI override):
@@ -56,13 +56,13 @@ Artifact: outreach\P01-GOAT-application-SUBMITTED-2026-09-21.md. Ledger P01 = WA
 ## LANE B — Autonomys / Subspace Foundation Grants (no prototype required)
 Portal: https://subspace.foundation/grants
 Process: https://subspace.foundation/grants/application-process
-Status: **SUBMITTED / AWAITING-REPLY** (2026-09-21 Google Form; "Your response has been recorded"; copy to acsassociation7337@gmail.com). Ask $10,000 in 3 milestones (spec 2k / prototype Live Wire receipts→Auto Drive + feed hash Auto EVM 5k / verifier+docs 3k). Autonomys integration planned, not live. Credit: Elons Twin draft, Claude Code fill, Jaron yes.
+Status: **SUBMITTED 2026-09-21; DECLINED 2026-09-22** (Google Form; "Your response has been recorded"; copy to his Google account). Ask $10,000 in 3 milestones (spec 2k / prototype Live Wire receipts→Auto Drive + feed hash Auto EVM 5k / verifier+docs 3k). Autonomys integration planned, not live. Credit: Elons Twin draft, Claude Code fill, Jaron yes.
 
 ### B1–B2 — DONE 2026-09-21
-Artifact: outreach\P03-AUTONOMYS-application-SUBMITTED-2026-09-21.md. Ledger P03 = WAITING.
+Artifact: outreach\P03-AUTONOMYS-application-SUBMITTED-2026-09-21.md. Ledger P03 = CLOSED — DECLINED (2026-09-22).
 
-### B3. Expect slow review
-Their docs: up to ~8 weeks to first response, then discovery call. Do not invent contact.
+### B3. Outcome — declined 2026-09-22
+The committee declined EGA-109 before Discovery on 2026-09-22. It cited no paying third-party DSN storage users, low expected demand, no purchase model, and no open-source license plan. No award was made. Free-tier testing and possible future bootstrapping credits are conditional on recurring third-party use.
 
 ---
 
@@ -109,7 +109,7 @@ Trading already works offline via desk-trade.py → state/desk-trail-offline.jso
 ---
 
 ## Paste this to the other AI (short starter)
-"Walk me through remaining work in C:\\Users\\lilli\\Projects\\watch\\offers\\agent-funding\\OWNER-PLAYBOOK-ALL-LANES.md. Lanes A/B are submitted awaiting reply; C closed until next round; D tip jar is live at https://shieldz.cash/tip/tip-354e0ded9a592c31. Next: share tip URL, Q-021 payday, optional site/README tip link. Obey the hard rules at the top. Do not invent integrations. Do not ask for seed phrases. Do not send crypto or sign wallets."
+"Walk me through remaining work in C:\\Users\\lilli\\Projects\\watch\\offers\\agent-funding\\OWNER-PLAYBOOK-ALL-LANES.md. Lane A is submitted awaiting reply; Lane B was declined 2026-09-22; Guild is closed; D tip jar is live at https://shieldz.cash/tip/tip-354e0ded9a592c31. Next: share tip URL, Q-021 payday, optional site/README tip link. Obey the hard rules at the top. Do not invent integrations. Do not ask for seed phrases. Do not send crypto or sign wallets."
 
 ## After you finish any lane
 Message Elons Twin one line: which lane, submitted/yes-no, confirmation id or tip URL. Twin updates PROSPECTS.md and stops burning tokens on re-research.

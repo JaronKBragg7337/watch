@@ -1,7 +1,13 @@
-﻿# P03 — Autonomys / Subspace Foundation Grants — DRAFT (not submitted)
+﻿# P03 — Autonomys / Subspace Foundation Grants — application record
 Target: https://subspace.foundation/grants
 Prepared: 2026-09-20 by Elons Twin for Jaron K. Bragg
-Status: SUBMITTED 2026-09-21 ~19:15 ET. Google Form, Jaron signed in on the MSI, Claude Code filled it from P03-AUTONOMYS-paste-ready.txt, Jaron said 'submit for sure'. Result page: 'Your response has been recorded'; copy emailed to acsassociation7337@gmail.com. Category AI powered dApp; ask $10,000 (2k/5k/3k); no deck; no AI3 wallet; LinkedIn blank.
+Status: SUBMITTED 2026-09-21 ~19:15 ET. Google Form, Jaron signed in on the MSI, Claude Code filled it from P03-AUTONOMYS-paste-ready.txt, Jaron said 'submit for sure'. Result page: 'Your response has been recorded'; copy emailed to his Google account. Category AI powered dApp; ask $10,000 (2k/5k/3k); no deck; no AI3 wallet; LinkedIn blank.
+
+## Outcome — declined 2026-09-22
+
+Gmail reply from the Subspace Foundation Grants Committee, subject “EGA-109 Subspace Foundation Grants Program - Heartbeat Observatory Application Outcome,” said the application would not advance to Discovery. They said the proposal showed a single-operator, low-volume storage proof rather than paying third-party DSN users, meaningful expected DSN use, or a model for customers to buy storage. They also said the funded components had no specified open-source license. No grant or funds were awarded.
+
+The committee said Jaron may experiment with the Auto Drive free tier; bootstrapping storage credits may be possible later if the project shows recurring third-party use and paid storage demand. This is conditional, not an award. No reapplication is planned until that evidence and an open-source license plan exist.
 
 ## Applicant
 - Name: Jaron K. Bragg

@@ -1,10 +1,11 @@
-P03 Autonomys (Subspace Foundation) grant - paste-ready answers for the Google Form
+P03 Autonomys (Subspace Foundation) grant - submitted form answer record
 Form: https://docs.google.com/forms/d/e/1FAIpQLSdOmv79P3w8Vpm4YwaqcSrkjMtawKr_aUBFFIyQxCf43o_MvA/viewform
 Written 2026-09-21 by Claude Code from Elons Twin's P03 draft. The form needs a Google sign-in, so Jaron opens it on his phone
 and pastes these. Field names are a guess until the form is open; match each block to the closest question.
+Public copy: the submitted contact email is redacted. Retrieve it from the private form response if needed.
 
 Name: Jaron K. Bragg
-Email: kylerbragg73@icloud.com
+Email: [private contact email used in the submitted form; not reproduced in this public file]
 Location: Fort Wayne, Indiana, USA
 GitHub: https://github.com/JaronKBragg7337
 X: https://x.com/JaronBragg
