@@ -11,7 +11,7 @@ For each domain, two to four items is plenty and zero is allowed. Prefer a prima
 observed, claim, or theory, with its source class (official, press, solo, social, model-only) and a money tag when it touches a
 market, a ticker, an asset, or a resolution rule. Domains 09 and 10 are what the trading bots read first, so name the Polymarket
 slug or ticker there when you can. Domain 12 is sports: injuries, lineups, schedules, venue weather, esports rosters. Domain 11
-is Indiana and the Midwest. Domain 21 is for anything you saw that mattered and fits nowhere.
+is major US cities and regions (news that matters nationally, not local-only). Domain 21 is for anything you saw that mattered and fits nowhere.
 
 Report what you saw, not only what you were sent to find. If a source is paywalled, down, or you will not cover a topic, say so
 under Could not see; that line is data. Under Persistence, read yesterday's codex file (and any other writer's file for yesterday)

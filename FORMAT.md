@@ -19,10 +19,10 @@ Status: substantive | thin | unavailable
 ## 08 supply chain / freight / food / housing inputs
 ## 09 prediction-market resolution events   (anything that changes how a market resolves: an official sentence, a date, a rule)
 ## 10 crypto / stock catalysts              (earnings, listings, hacks, ETF flows, halvings, regulation)
-## 11 Indiana / Midwest ground truth        (cost of living, weather, local employers, roofing season, state agencies)
+## 11 major US cities and regions          (NYC, LA, Chicago, Texas, Florida and other big metros: news that matters nationally)
 ## 12 sports                                (schedules, injuries, lineups, venue weather, esports rosters — what the trader reads first)
 ## 13 U.S. politics and elections           (polls, primaries, votes on bills, court rulings on elections)
-## 14 weather, climate and disasters        (storms, floods, heat, wildfire — national and Midwest)
+## 14 weather, climate and disasters        (storms, floods, heat, wildfire — national and worldwide)
 ## 15 health                                (outbreaks, FDA decisions, drug approvals — market- and family-relevant)
 ## 16 law, courts and regulation            (rulings, SEC/CFTC/FCC actions, bills with dates)
 ## 17 outages and cyber                     (cloud, telecom, exchanges, banks, critical infrastructure)

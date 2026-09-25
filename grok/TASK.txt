@@ -13,7 +13,7 @@ on screen and what the official statement actually said, separately. For each do
 allowed. Name the source URL or the X post, and label each item observed, claim, or theory, with its source class (official,
 press, solo, social, model-only) and a money tag when it touches a market, a ticker, an asset, or a resolution rule. Domains 09
 and 10 are what the trading bots read first, so name the Polymarket slug or ticker there when you can. Domain 12 is sports.
-Domain 11 is Indiana and the Midwest. Domain 21 is for anything you saw that mattered and fits nowhere.
+Domain 11 is major US cities and regions (news that matters nationally, not local-only). Domain 21 is for anything you saw that mattered and fits nowhere.
 
 Report what you saw, not only what you were sent to find. If a source is down or you could not reach it, say so under Could not
 see; that line is data. Under Persistence, read yesterday's grok file and list what is back, with the date. That is not
