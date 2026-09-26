@@ -7,6 +7,11 @@ We are building public autonomous infrastructure so ordinary builders — and th
 
 ## What exists today (accomplishments)
 - **Heartbeat Observatory** — live public site: https://www.heartbeatobservatory.com
+- **The Crew — the strongest proof we have (added 2026-09-25):** https://www.heartbeatobservatory.com/live-systems/crew/ — every AI
+  in the system, its exact instructions word for word, its schedule, its real trades and profit/loss, the bots' own conversation
+  log, and the retired versions with why they changed. Updated hourly from the machine. Lead with this link in every application.
+- **License:** everything is public and CC0 (public domain) by default. Say so plainly - Autonomys declined P03 partly because the
+  license was unspecified.
 - **Public GitHub** — github.com/JaronKBragg7337
 - **watch** — multi-AI daily capture + market-feed: https://github.com/JaronKBragg7337/watch
 - **Live Wire** — autonomous Polymarket US trading agent; real fills, babysit, kill discipline
