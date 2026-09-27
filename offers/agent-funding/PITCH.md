@@ -9,12 +9,13 @@ We are building public autonomous infrastructure so ordinary builders — and th
 - **Heartbeat Observatory** — live public site: https://www.heartbeatobservatory.com
 - **The Crew — the strongest proof we have (added 2026-09-25):** https://www.heartbeatobservatory.com/live-systems/crew/ — every AI
   in the system, its exact instructions word for word, its schedule, its real trades and profit/loss, the bots' own conversation
-  log, and the retired versions with why they changed. Updated hourly from the machine. Lead with this link in every application.
-- **License:** everything is public and CC0 (public domain) by default. Say so plainly - Autonomys declined P03 partly because the
-  license was unspecified.
+  log, and the retired versions with why they changed. Updated hourly from the machine. Lead with this link for multi-agent operating work; lead with Zeus for local/open-AI applications.
+- **License:** much of Heartbeat/watch is public and CC0 by default, but check each repository: Zeus AI Workbench is MIT-licensed.
+  Name the actual license for every funded deliverable; Autonomys declined P03 partly because its license was unspecified.
 - **Public GitHub** — github.com/JaronKBragg7337
 - **watch** — multi-AI daily capture + market-feed: https://github.com/JaronKBragg7337/watch
 - **Live Wire** — autonomous Polymarket US trading agent; real fills, babysit, kill discipline
+- **Zeus AI Workbench** — public MIT-licensed, local-first AI desktop workbench using Ollama, local RAG, local memory, desktop tools, and inspectable action logs; an early from-scratch training path is experimental, not a finished Zeus model: https://github.com/JaronKBragg7337/zeus-ai
 - **Offers pipeline** — Studio Patron, MCP setup pack, Rift Clash prepared under watch/offers/
 
 ## What is experimental
