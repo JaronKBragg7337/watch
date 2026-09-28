@@ -1,6 +1,6 @@
 # P27 — Sentient Foundation Open Source AGI Grant — draft
 
-Prepared 2026-09-27 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted.
+Prepared 2026-09-27 and updated 2026-09-28 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted.
 
 ## Opportunity
 
@@ -17,7 +17,7 @@ Prepared 2026-09-27 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted.
 
 ### Required applicant details
 
-- Email: **NEEDS JARON**. P03's public application copy redacts the address used there.
+- Email: available from the prior P03 response in connected Gmail; the address is omitted from this local draft and has not been entered in this form.
 - LinkedIn URL: **NEEDS JARON**. P03 records LinkedIn as blank.
 - Primary role: Engineer / Builder.
 - Location: Fort Wayne, Indiana, USA, as stated in the prior grant application record and consistent with the public project profile.
@@ -50,7 +50,7 @@ This is the source repository and local trial instructions, not a hosted public 
 
 ## Still needed before submission
 
-- Jaron's chosen email address and LinkedIn URL.
+- Jaron's LinkedIn URL. The email used on P03 has been recovered from connected Gmail. The visible first step still requires LinkedIn; the form has not been filled.
 - The Typeform's third step. It is not exposed until the required profile fields on the first step are completed; inspect it before submitting and add any remaining answers without guessing.
 - No per-grant amount is published. If the form asks for a requested amount or budget, use a real project budget rather than inventing one.
 
