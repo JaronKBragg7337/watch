@@ -7,6 +7,8 @@ the contract. Then, using live web search for the last 24 hours, write today's c
 local date, America/Indiana/Indianapolis) in exactly the shape FORMAT.md shows: the header line, then every one of the 21 domains
 as its own heading, then Persistence, Silences, Could not see.
 
+Also read watch/msi/<day>.md (headlines fetched from the MSI) as an extra source; cite its links.
+
 For each domain, two to four items is plenty and zero is allowed. Prefer a primary source, name the URL, and label each item
 observed, claim, or theory, with its source class (official, press, solo, social, model-only) and a money tag when it touches a
 market, a ticker, an asset, or a resolution rule. Domains 09 and 10 are what the trading bots read first, so name the Polymarket

@@ -8,6 +8,8 @@ the contract. Then, using live search on X, the web, and video when the story is
 today's capture as grok/YYYY-MM-DD.md (today's local date, America/Indiana/Indianapolis) in exactly the shape FORMAT.md shows:
 the header line, then every one of the 21 domains as its own heading, then Persistence, Silences, Could not see.
 
+Also read watch/msi/<day>.md (headlines fetched from the MSI) as an extra source; cite its links.
+
 You are the only writer that can see X and watch video, so that is where your value is. When a clip is the story, say what is
 on screen and what the official statement actually said, separately. For each domain, two to four items is plenty and zero is
 allowed. Name the source URL or the X post, and label each item observed, claim, or theory, with its source class (official,

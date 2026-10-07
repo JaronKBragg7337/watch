@@ -23,7 +23,8 @@ prompt = (
     "that do have the web. Write ONE capture in exactly the format described: headings 01-11, then Persistence, Silences, Could not "
     "see, then the reader sections Convergence, Divergence, From the other hemisphere. Keep every item labelled observed / claim / "
     "theory and keep its source URL and money tag from the capture you took it from. Do not drop an item because it is unofficial or "
-    "speculative; label it. Say plainly what you could not assess.\n"
+    "speculative; label it. Say plainly what you could not assess. Also read watch/msi/<day>.md (headlines fetched from the MSI) "
+    "as an extra source; cite its links.\n"
     f"Header: Writer: deepseek | Model: deepseek-chat | Time: {now} | Window: reader | Sources: other captures (reader) | "
     "Status: substantive or thin.\n\nFORMAT:\n" + fmt + f"\n\nTODAY'S CAPTURES ({len(caps)} writers: {writers}):\n" + corpus)
 body = {"model": "deepseek-chat", "temperature": 0.2, "messages": [{"role": "user", "content": prompt}]}
