@@ -1,13 +1,13 @@
 # P46 - ArmorIQ Flow State - draft
 
-Prepared 2026-10-01 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not registered or submitted. The linked Hackbriven page stayed on “Loading event.” Do not accept ArmorIQ service terms or connect its SDK until Jaron answers the question in `NEEDS-JARON.md` and the event rules are available.
+Prepared 2026-10-01 by Codex (GPT-6 Luna) for Jaron K. Bragg. Updated 2026-10-09. Not registered or submitted. The official event now links to a Luma page with host approval; no registration was requested. Do not accept ArmorIQ service terms or connect its SDK until Jaron answers the question in `NEEDS-JARON.md` and the event rules are available.
 
 ## Opportunity
 
 - **What it funds:** an online AI-agent hackathon about giving agents tools while proving their action limits work.
-- **Prize:** the official event page lists $500 cash for the grand-prize winner. It does not promise an award to entrants. Partner awards may be added but are not counted here.
-- **Dates:** registration is listed to open October 1, 2026. Build week is October 10-17; submissions close October 17; results are October 22. The exact deadline time and full submission requirements were not published on the page checked.
-- **How to enter:** the official ArmorIQ page links to a Hackbriven event page. That page displayed “Loading event” and exposed no form in this run.
+- **Prize:** the current official event page lists a $1,000 cash grand prize. It does not promise an award to entrants. Partner awards may be added but are not counted here. The older $500 figure in this draft was incorrect.
+- **Dates:** build week is October 10-17, 2026; submissions close October 17; results are October 22. The event page says exact deadline hours are in the official rules, but those rules and the promised itemized submission spec were not visible on October 9.
+- **How to enter:** the official ArmorIQ page links to Luma. Luma says registration is subject to host approval. No registration was requested.
 - **Fit:** Zeus AI Workbench is a public MIT-licensed local desktop AI workbench with desktop tools and action records. A narrow demo that shows a useful agent action being allowed and an out-of-scope action being blocked fits the challenge. Zeus does not currently integrate ArmorIQ, and no security-control result is claimed.
 - **Effort:** about 120-180 AI minutes for a small demo using synthetic data, plus the event week and time to read the final rules.
 
@@ -37,7 +37,11 @@ A reproducible demo, a short video, and a public account of the allowed action, 
 
 ## Terms and submission limits
 
-ArmorIQ's public Services Terms require users to indemnify ArmorIQ for claims tied to use, breach of the terms, or violations of law or third-party rights. Its privacy policy says some agent tools send inputs, tool calls, results, audit logs, and execution traces to ArmorIQ, with 12-month retention for the listed product data. The exact data flow for the SDK needed by this hackathon is not established by the event page. The announced $500 grand prize does not by itself justify accepting terms or sending project data to a service. No account, key, terms, or event rules have been accepted.
+ArmorIQ's public Services Terms require users to be at least 18, indemnify ArmorIQ for claims tied to use, breach of the terms, or violations of law or third-party rights, and resolve disputes in courts where ArmorIQ is headquartered. Its privacy policy says ArmorClaude and ArmorCodex can send prompts or intent plans, tool-call details, audit logs, execution traces, and environment metadata to ArmorIQ; the listed product data is retained for 12 months. The exact flow for any SDK used in this hackathon is not established by the event page. The $1,000 grand prize does not by itself justify accepting terms or sending project data to a service. No account, key, terms, or event rules have been accepted.
+
+## 2026-10-09 update
+
+The official page now lists the $1,000 prize and confirms the online build week. The Luma entry requires host approval. The event page still says that exact submission requirements and rules are available separately, but the published page did not expose them on this check. A narrow demo using only synthetic or public data remains possible, but eligibility, service terms, and the missing rules block registration and SDK use.
 
 ## Sources
 
