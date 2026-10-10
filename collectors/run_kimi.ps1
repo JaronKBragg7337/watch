@@ -10,6 +10,7 @@ $log = Join-Path $env:TEMP "watch-kimi-run.log"
 $ok = Test-Path "kimi\$day.md"
 $tail = if ($ok) { "wrote kimi/$day.md ($((Get-Item "kimi\$day.md").Length) bytes)" } else { "NO FILE; last log line: " + ((Get-Content $log -Tail 1) -join " ") }
 Add-Content -Path "collectors\kimi_runs.log" -Value ("{0} | {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm"), $tail)
+if ($ok) { python collectorsirst_light_adds.py $day 2>&1 | Out-Null }
 git add -A
 git commit -m "watch: kimi (First Light) $day" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" 2>&1 | Out-Null
 git push 2>&1 | Out-Null
