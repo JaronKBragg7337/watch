@@ -19,7 +19,7 @@ from what the system earns. Not this AI here and that AI there. `PLAIN.txt` is t
 | `perplexity/` | Perplexity Tasks | email → MSI relay commits (or the API once a key exists) | yes | collector |
 | `deepseek/` | Windows task "Watch DeepSeek Reader", daily 09:00, runs `collectors/deepseek_read.py` (API credits, no subscription) | commits + pushes | **no** — reads the day's captures | Eastern reader |
 | `qwen/` | local Ollama on the MSI | commits | no | reader / summariser |
-| `kimi/` | Kimi scheduled task (later, needs subscription) | tbd | yes | Eastern collector |
+| `kimi/` | **First Light** - Kimi Code CLI from the MSI (collectors/run_kimi.ps1), live since 2026-10-10 | 06:30 | yes | Eastern Hemisphere desk: 21 domains re-scoped + 22 calendars (kimi/DESK-PLAN.md, kimi/TASK.txt) |
 | `brief/` | the organizer (a Grok bot) | reads every folder for the day, writes one brief | — | organizer |
 | `market-feed/` | the organizer | short packets for the trading bots (`YYYY-MM-DD.jsonl`, spec in FORMAT.md) | — | organizer |
 
