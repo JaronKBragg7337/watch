@@ -4,7 +4,8 @@ $ErrorActionPreference = "Continue"
 Set-Location "C:\Users\lilli\Projects\watch"
 git pull --rebase 2>&1 | Out-Null
 $day = (Get-Date).ToString("yyyy-MM-dd")
-$prompt = (Get-Content kimi\TASK.txt -Raw) + "`n`nRun note from the MSI: write the file kimi/$day.md and stop; the caller commits and pushes. Today is $day."
+# Short one-line prompt: Windows PowerShell 5 mangles long multi-line args with quotes to native exes (10/10 run failed: "unknown command Eastern").
+$prompt = "Read the file kimi/TASK.txt in this folder and do exactly what it says. Today is $day. Write the file kimi/$day.md and stop; the caller commits and pushes."
 $log = Join-Path $env:TEMP "watch-kimi-run.log"
 & "$env:USERPROFILE\.kimi-code\bin\kimi.exe" -p $prompt > $log 2>&1
 $ok = Test-Path "kimi\$day.md"
