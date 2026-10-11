@@ -1,6 +1,10 @@
 # What the funding lane needs from Jaron
 Only things an AI could not find or truthfully fill in. Newest at the top. Not an approval queue.
-Updated: 2026-10-10 by Codex (GPT-6 Luna).
+Updated: 2026-10-11 by Codex (GPT-6 Luna).
+
+- **P92 - Techstars New York City Accelerator (deadline Nov 18):** See P42 for the missing company/product, customer and revenue counts, start date, legal entity/ownership, and founder/team details. For this cohort, can you devote full-time and exclusive effort to that startup if accepted, attend the in-person New York sessions and Demo Day during March-June 2027, and consider the published $220,000 terms: 5% common equity plus a $200,000 uncapped MFN SAFE? This matters because the program expects exclusivity after acceptance and the investment dilutes ownership; no application has been drafted or submitted.
+
+- **P91 - 0G Apollo Cohort 2 (deadline Nov 2):** What company name should be used, what year was it founded, and how many full-time people including founders does it have? The first required form page asks for those facts. Can you commit to the four-month Nov 2026-Feb 2027 program and to building or deploying a meaningful 0G integration? The page describes in-person Stanford programming but conflicts on whether Demo Day is onsite or virtual, and does not state travel support; can you attend any required Stanford sessions? These answers matter because funding is not guaranteed or given as a fixed amount, and program incentives depend on 0G roadmap and traction. No application data was entered.
 
 - **P84 - OpenMined Ensembles & Routing Research Grants (deadline Oct 23):** Can you commit to a 12-week project from Nov 1, 2026 through Jan 23, 2027? The call offers a $2,000 stipend plus up to $5,000 in compute for a public, zero-shot, single-turn model-ensemble or routing study. A proposal must name a method and benchmark or paper to reproduce; the official call welcomes a well-formed idea without prior publications. This matters because the award requires sustained work and milestones. The call page gives no application form and directs questions to OpenMined's #grants Slack. If you can make the commitment, an AI can draft a specific proposal from the local-model work already documented. No contact or application has been made.
 
