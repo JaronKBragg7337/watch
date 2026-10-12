@@ -1,13 +1,13 @@
 # P44 - Open Agent Hackathon 2026 - registration draft
 
-Prepared 2026-10-01 and rechecked 2026-10-10 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. Registration closes Oct 13, 2026 at 00:00 UTC (Oct 12 at 8 p.m. EDT). Registration requires a GenAI Academy sign-in; no account or event registration was created in this lane. Confirm the 16+ eligibility answer in `NEEDS-JARON.md` before registering.
+Prepared 2026-10-01 and rechecked 2026-10-12 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. The current official page says “Register now” but shows no registration deadline. Registration requires a GenAI Academy sign-in; no account or event registration was created in this lane. Confirm the 16+ eligibility answer in `NEEDS-JARON.md` before registering.
 
 ## Opportunity
 
-- **What it funds:** an online build contest for production-oriented AI agents. The page lists up to $20,000 in prizes: $8,000 for first, $4,000 for runner-up, $2,000 for third, plus bonus points. Awards are not guaranteed.
+- **What it funds:** an online build contest for production-oriented AI agents. The current page lists a prize pool up to $20,000: $15,000 in cash across the tracks and $5,000 in in-kind rewards. It does not give an individual cash-prize breakdown. Awards are not guaranteed.
 - **Who can enter:** worldwide; solo or teams of up to five; age 16 or older at the start of the build.
 - **Cost:** free entry.
-- **Dates:** registration closes October 13, 2026 at 00:00 UTC (October 12 at 8 p.m. EDT). Workshops are October 7, 8, and 12; onboarding is October 14; build window is October 15-20; submissions close October 20 at 23:45 UTC. Results are listed for October 30.
+- **Dates:** the current course page lists an onboarding call on October 21 and a build window of October 22-27. It shows no registration deadline or submission cutoff. The live page says “Register now.”
 - **How to register:** open the course page and choose “Register now” using a GenAI Academy account. No payment or subscription is stated on the current event page.
 - **Effort:** about 180-300 AI minutes to build, check, document, and demo a small project. The event runs across six calendar days.
 - **Fit:** Zeus AI Workbench is an existing public MIT-licensed desktop app using Ollama, local document search, local memory, desktop tools, and action records. This contest asks for an agent that connects information, reasons across steps, keeps context, and produces a useful result. No outside Zeus users or customer demand are documented. The proposed entry is a new experiment based on Zeus, not an existing product or customer result.
@@ -42,7 +42,7 @@ I plan to use the existing MIT-licensed Zeus repository. The event lists the Zet
 
 ## Submission handoff
 
-The official course page confirms free entry and a registration close of Oct 13 at 00:00 UTC. Registration requires a GenAI Academy account. No account was created, no payment was made, and no application was submitted. If the live form asks for extra eligibility or team details, do not guess; record any unknown required answer in `NEEDS-JARON.md`.
+The official course page was rechecked on 2026-10-12. It now lists the Oct 22-27 build window and says “Register now,” but does not publish a registration deadline or submission cutoff. Its current prize summary is $15,000 cash across tracks plus $5,000 in-kind; the earlier listed individual prize breakdown is not shown on this page. Registration requires a GenAI Academy account. Jaron's age remains unknown, so no account, age declaration, payment, or event registration was made. If the sign-in flow asks for other eligibility facts, do not guess; record any unknown required answer in `NEEDS-JARON.md`.
 
 ## Sources
 
