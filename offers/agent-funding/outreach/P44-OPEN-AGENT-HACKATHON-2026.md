@@ -1,15 +1,15 @@
 # P44 - Open Agent Hackathon 2026 - registration draft
 
-Prepared 2026-10-01 and rechecked 2026-10-12 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. The current official page says “Register now” but shows no registration deadline. Registration requires a GenAI Academy sign-in; no account or event registration was created in this lane. Confirm the 16+ eligibility answer in `NEEDS-JARON.md` before registering.
+Prepared 2026-10-01 and rechecked 2026-10-13 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. The official page now says registration closes October 22. Registration requires a GenAI Academy sign-in; no account or event registration was created in this lane. Confirm the 16+ eligibility answer in `NEEDS-JARON.md` before registering.
 
 ## Opportunity
 
-- **What it funds:** an online build contest for production-oriented AI agents. The current page lists a prize pool up to $20,000: $15,000 in cash across the tracks and $5,000 in in-kind rewards. It does not give an individual cash-prize breakdown. Awards are not guaranteed.
+- **What it funds:** an online build contest for production-oriented AI agents. The page lists up to $20,000 in total value: $15,000 in cash and $5,000 in in-kind rewards. It lists $2,000 / $1,350 / $1,000 for each of three challenge tracks (the Reasoning Architecture second-place prize is $1,300), $1,000 / $600 / $400 for the Wildcard, and a separate $2,000 Bright Data bounty. Awards are not guaranteed.
 - **Who can enter:** worldwide; solo or teams of up to five; age 16 or older at the start of the build.
 - **Cost:** free entry.
-- **Dates:** the current course page lists an onboarding call on October 21 and a build window of October 22-27. It shows no registration deadline or submission cutoff. The live page says “Register now.”
+- **Dates:** registration closes October 22, onboarding is October 21, and the build window is October 22 at 00:00 UTC through October 27 at 23:45 UTC. Results are announced November 6.
 - **How to register:** open the course page and choose “Register now” using a GenAI Academy account. No payment or subscription is stated on the current event page.
-- **Effort:** about 180-300 AI minutes to build, check, document, and demo a small project. The event runs across six calendar days.
+- **Effort:** about 180-300 AI minutes to build, check, document, and demo a small project. The event runs across six calendar days. Entries must use Cursor for development, integrate Zetaris, and run on NVIDIA Nemotron directly or through Meterless.
 - **Fit:** Zeus AI Workbench is an existing public MIT-licensed desktop app using Ollama, local document search, local memory, desktop tools, and action records. This contest asks for an agent that connects information, reasons across steps, keeps context, and produces a useful result. No outside Zeus users or customer demand are documented. The proposed entry is a new experiment based on Zeus, not an existing product or customer result.
 
 ## Draft entry
@@ -38,11 +38,11 @@ I plan to prepare a small set of public or synthetic documents and questions wit
 
 ### Tools and license
 
-I plan to use the existing MIT-licensed Zeus repository. The event lists the Zetaris data layer, NVIDIA token layer, and Meterless orchestration as sponsor tools. I would check their availability and terms first and use only public or synthetic data. No sponsor integration is in the current Zeus project, and none is claimed here.
+I plan to use Cursor for development, connect Zetaris as the data layer, and run the planned agent on NVIDIA Nemotron directly or through Meterless. I would use only public or synthetic project documents. Bright Data is optional and has a separate bounty. Zeus does not currently include these integrations; none is claimed as done.
 
 ## Submission handoff
 
-The official course page was rechecked on 2026-10-12. It now lists the Oct 22-27 build window and says “Register now,” but does not publish a registration deadline or submission cutoff. Its current prize summary is $15,000 cash across tracks plus $5,000 in-kind; the earlier listed individual prize breakdown is not shown on this page. Registration requires a GenAI Academy account. Jaron's age remains unknown, so no account, age declaration, payment, or event registration was made. If the sign-in flow asks for other eligibility facts, do not guess; record any unknown required answer in `NEEDS-JARON.md`.
+The official course page was rechecked on 2026-10-13. Registration closes Oct 22; the build runs Oct 22-27. Entries need Zetaris, Cursor, and NVIDIA Nemotron, and the submission needs a 1-4 minute demo video, slide deck, public GitHub repository, and README through HackOS. Registration requires a GenAI Academy account. Jaron's age remains unknown, so no account, age declaration, payment, or event registration was made. If the sign-in flow asks for other eligibility facts, do not guess; record any unknown required answer in `NEEDS-JARON.md`.
 
 ## Sources
 
