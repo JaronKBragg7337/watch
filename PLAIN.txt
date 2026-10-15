@@ -54,5 +54,5 @@ The fly school pupils and the MSI health check are not part of this system. The 
 their memories are on disk and in the cloud, and their forgetting rule had already flattened them. The health check that watches
 the desk's services stays, because the desk needs it.
 
-That is the loop. Writers in the morning, the reader at nine, the organizer at midday, the trader all day, the ledger at night.
+That is the loop. Writers at 3 AM, the reader at 3:40, the organizer at midday, the trader all day, the ledger at night.
 The repo is the only thing in the middle, and every part can be swapped without touching the others.

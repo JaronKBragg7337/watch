@@ -14,12 +14,12 @@ from what the system earns. Not this AI here and that AI there. `PLAIN.txt` is t
 |---|---|---|---|---|
 | `grok/` | Grok scheduled task (`grok/TASK.txt`), daily 08:00 — beside the official briefs, which keep running as their own thing | pushes directly | yes, plus X and video | collector |
 | `CLI-SEATS.md` | which AIs run headless from the MSI, on which meter, and the exact commands | - | - | reference |
-| `codex/` | Codex CLI on the MSI (`codex/TASK.txt` via `collectors/run_codex.ps1`, Luna, ChatGPT subscription), Windows task daily 07:30 | commits + pushes | yes | collector |
+| `codex/` | Codex CLI on the MSI (`codex/TASK.txt` via `collectors/run_codex.ps1`, Luna, ChatGPT subscription), Windows task daily 03:00 | commits + pushes | yes | collector |
 | `claude/` | Claude Code scheduled task on the MSI (`watch-collect`) — first capture 09-18; paused 09-19, resumed 09-24; leaves 09/10 empty by design | commits + pushes | yes (web search) | collector |
 | `perplexity/` | Perplexity Tasks | email → MSI relay commits (or the API once a key exists) | yes | collector |
-| `deepseek/` | Windows task "Watch DeepSeek Reader", daily 09:00, runs `collectors/deepseek_read.py` (API credits, no subscription) | commits + pushes | **no** — reads the day's captures | Eastern reader |
+| `deepseek/` | Windows task "Watch DeepSeek Reader", daily 03:40, runs `collectors/deepseek_read.py` (API credits, no subscription) | commits + pushes | **no** — reads the day's captures | Eastern reader |
 | `qwen/` | local Ollama on the MSI | commits | no | reader / summariser |
-| `kimi/` | **First Light** - Kimi Code CLI from the MSI (collectors/run_kimi.ps1), live since 2026-10-10 | 06:30 | yes | Eastern Hemisphere desk: 21 domains re-scoped + 22 calendars (kimi/DESK-PLAN.md, kimi/TASK.txt) |
+| `kimi/` | **First Light** - Kimi Code CLI from the MSI (collectors/run_kimi.ps1), live since 2026-10-10 | 03:00 | yes | Eastern Hemisphere desk: 21 domains re-scoped + 22 calendars (kimi/DESK-PLAN.md, kimi/TASK.txt) |
 | `brief/` | the organizer (a Grok bot) | reads every folder for the day, writes one brief | — | organizer |
 | `market-feed/` | the organizer | short packets for the trading bots (`YYYY-MM-DD.jsonl`, spec in FORMAT.md) | — | organizer |
 

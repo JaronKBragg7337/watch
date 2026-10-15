@@ -1,5 +1,5 @@
 Funding lane (the Revenue Desk, rebuilt) - one daily run. Written 2026-09-24 by Claude Code from Jaron's answers. Plain words.
-Runs on Codex (GPT-6 Luna) as a Windows task in the afternoon, outside the 6:30-9:10 AM writer block.
+Runs on Codex (GPT-6 Luna) as a Windows task at 3:00 AM, with the other overnight jobs (moved from 2:00 PM on 2026-10-15).
 
 WHAT THIS IS
 Find money that already exists for projects like Jaron's, and go get it: grants, ecosystem and foundation funds, accelerators,

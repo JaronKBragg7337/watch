@@ -1,5 +1,5 @@
 # Runs the DeepSeek reader over today's captures and pushes. A plain Windows scheduled task, no AI subscription usage.
-# Registered 2026-09-19 as "Watch DeepSeek Reader", daily 09:00 local (after Codex's and Grok's morning captures).
+# Registered 2026-09-19 as "Watch DeepSeek Reader", daily 03:40 local (after the 03:00 captures; moved from 09:00 on 2026-10-15).
 $ErrorActionPreference = "Continue"
 Set-Location "C:\Users\lilli\Projects\watch"
 git pull --rebase 2>&1 | Out-Null

@@ -1,5 +1,5 @@
 Organizer task - for whichever AI sits in the seat. Written 2026-09-19 by Claude Code with Jaron. Plain words; paste as-is.
-Schedule: every day, 11:00 AM America/Indiana/Indianapolis, after the writers (Codex 7:30, Grok 8:00, DeepSeek 9:00).
+Schedule: every day, 11:00 AM America/Indiana/Indianapolis, after the writers (Codex 3:00 AM, DeepSeek 3:40 AM, Grok 8:00).
 Until the seat is filled by a scheduled task, a person or an AI can run this by hand and the result is the same.
 
 Read brief/MEMORY.md first. It is your memory; you start with none. Then read README.md and FORMAT.md.

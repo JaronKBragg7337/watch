@@ -16,9 +16,14 @@ runs on Luna: the cheap seat is the one that gets to run every day.
 Astra (ChatGPT's best model) is reserved for fly-brain work when that resumes; not for daily writers.
 
 WHAT RUNS ON A SCHEDULE (Windows Task Scheduler on the MSI, America/Indiana/Indianapolis)
-  07:30  Watch Codex Writer     collectors/run_codex.ps1    -> codex/YYYY-MM-DD.md   (first run 2026-09-21: 21 domains, 46 sources)
-  08:00  Watch Grok Writer      collectors/run_grok.ps1     -> grok/YYYY-MM-DD.md    (registered 2026-09-21 after the first by-hand run)
-  09:00  Watch DeepSeek Reader  collectors/run_deepseek.ps1 -> deepseek/YYYY-MM-DD.md
+  (Everything heavy runs 3-6 AM while Jaron sleeps; moved 2026-10-15. Nothing heavy during the day.)
+  03:00  Watch Codex Writer     collectors/run_codex.ps1    -> codex/YYYY-MM-DD.md   (first run 2026-09-21: 21 domains, 46 sources)
+  03:00  Watch Kimi First Light collectors/run_kimi.ps1     -> kimi/YYYY-MM-DD.md
+  03:00  Watch MSI Reader       collectors/run_msi.ps1      -> msi/YYYY-MM-DD.md
+  03:00  Watch Funding Lane     collectors/run_funding.ps1  -> offers/agent-funding/
+  03:00-03:10  Claude daily capture (watch-collect, Claude app task, cron 0 3 plus dispatch jitter) -> claude/YYYY-MM-DD.md
+  03:40  Watch DeepSeek Reader  collectors/run_deepseek.ps1 -> deepseek/YYYY-MM-DD.md
+  08:00  Watch Grok Writer      collectors/run_grok.ps1     -> grok/YYYY-MM-DD.md    (registered 2026-09-21; time not part of the 10/15 move, check Task Scheduler)
   11:00  Organizer seat         brief/TASK.txt              -> brief/ + market-feed/  (Elons Twin has been sitting it by hand)
 Each runner pulls, runs the AI, commits "watch: <writer> YYYY-MM-DD", pushes. Run logs: collectors/<writer>_runs.log.
 
@@ -61,7 +66,7 @@ That is a plan refusal, not an unknown-model error, so the ids are real and the 
 model picker, the CLI was on 0.153.4 while 0.155.1 was out, and after `scoop update codex` the same call returned normally.
 Prices from OpenAI's own card: Astra $10/$50, Sol $2/$10, Luna $0.10/$0.50 per million - GPT-6 Luna is HALF the price of
 GPT-5.6 Luna ($0.20/$1.20) and built on Astra. OpenAI says the 50% cut is permanent and makes subscription usage go further
-too. The 07:30 watch writer is pinned to gpt-6-luna as of 2026-09-22 (collectors/run_codex.ps1). Lesson worth keeping: when a
+too. The 03:00 watch writer (07:30 before 2026-10-15) is pinned to gpt-6-luna as of 2026-09-22 (collectors/run_codex.ps1). Lesson worth keeping: when a
 model is refused by name, check the client version before believing the refusal.
 
 EFFORT DOES NOT FOLLOW THE MODEL FLAG (2026-09-23)

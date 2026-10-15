@@ -1,5 +1,5 @@
 # Captures public RSS/Atom headlines from the MSI for the daily watch.
-# Registered as "Watch MSI Reader", daily 07:00 local.
+# Registered as "Watch MSI Reader", daily 03:00 local (moved from 07:00 on 2026-10-15).
 $ErrorActionPreference = "Stop"
 $watch = "C:\Users\lilli\Projects\watch"
 Set-Location $watch

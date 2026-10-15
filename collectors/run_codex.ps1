@@ -6,7 +6,7 @@
 # 2026-09-23: effort is now passed EXPLICITLY. Passing -m on the command line does NOT inherit model_reasoning_effort from
 # config.toml - the 09-23 run silently dropped from max to high and the capture came out less than half the size of 09-22
 # (17 observed items vs 49, 23 sources vs 59, same 24 headings). Always pass both -m and -c together.
-# Registered 2026-09-21 as "Watch Codex Writer", daily 07:30 local. Replaces the "paste TASK.txt into ChatGPT" step.
+# Registered 2026-09-21 as "Watch Codex Writer", daily 03:00 local (moved from 07:30 on 2026-10-15). Replaces the "paste TASK.txt into ChatGPT" step.
 $ErrorActionPreference = "Continue"
 Set-Location "C:\Users\lilli\Projects\watch"
 git pull --rebase 2>&1 | Out-Null

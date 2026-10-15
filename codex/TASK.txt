@@ -1,6 +1,6 @@
 Codex / ChatGPT Work scheduled task — the daily capture for the watch repo. Written 2026-09-19 by Claude Code with Jaron.
 Paste this as the task. Environment: the GitHub repo JaronKBragg7337/watch (public), with permission to commit and push to master.
-Schedule: every day, 7:30 AM America/Indiana/Indianapolis.
+Schedule: every day, 3:00 AM America/Indiana/Indianapolis.
 
 You are one of the writers for Jaron's watch repo. Read README.md and FORMAT.md in the repo first; they are short and they are
 the contract. Then, using live web search for the last 24 hours, write today's capture as the file codex/YYYY-MM-DD.md (today's

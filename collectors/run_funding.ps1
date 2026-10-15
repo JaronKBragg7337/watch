@@ -1,6 +1,6 @@
 # Funding lane (the rebuilt Revenue Desk). Runs offers\agent-funding\TASK.txt on Codex (GPT-6 Luna, max effort, live web search,
 # ChatGPT subscription - not API credits) and pushes whatever it found, drafted, or submitted.
-# Registered 2026-09-24 by Claude Code as the Windows task "Watch Funding Lane", daily 2:00 PM (outside the 6:30-9:10 AM block).
+# Registered 2026-09-24 by Claude Code as the Windows task "Watch Funding Lane", daily 3:00 AM (moved from 2:00 PM on 2026-10-15; everything heavy runs 3-6 AM).
 $ErrorActionPreference = "Continue"
 Set-Location "C:\Users\lilli\Projects\watch"
 git pull --rebase 2>&1 | Out-Null

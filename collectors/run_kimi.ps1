@@ -1,5 +1,5 @@
 # First Light (Kimi, Eastern Hemisphere desk) - runs kimi/TASK.txt headless with the Kimi Code CLI on Jaron's Allegretto plan
-# (logged in 2026-10-09; RECONNECT.md section 8). Live web search is built in. Registered as "Watch Kimi First Light", daily 06:30.
+# (logged in 2026-10-09; RECONNECT.md section 8). Live web search is built in. Registered as "Watch Kimi First Light", daily 03:00 (moved from 06:30 on 2026-10-15).
 $ErrorActionPreference = "Continue"
 Set-Location "C:\Users\lilli\Projects\watch"
 git pull --rebase 2>&1 | Out-Null
