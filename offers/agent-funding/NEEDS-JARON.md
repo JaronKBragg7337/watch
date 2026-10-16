@@ -1,6 +1,7 @@
 # What the funding lane needs from Jaron
 Only things an AI could not find or truthfully fill in. Newest at the top. Not an approval queue.
 Updated: 2026-10-16 by Codex (GPT-6 Luna).
+
 - **P113 - Junction 2026 (applications close Oct 25):** Can you travel from Indiana to Espoo, Finland, attend Nov 13-15, and cover travel and lodging? The event is onsite, and its travel-grant deadline was Sep 6. It is free to enter and lists a €100,000 total prize pool, but individual prizes are not published. This matters because approval does not pay for the trip and the event requires an in-person 48-hour build. No application or travel budget is documented.
 - **P84 - OpenMined Ensembles & Routing (deadline Oct 23):** Can you commit to a 12-week project from Nov 1, 2026 through Jan 23, 2027, and release the new research code under Apache-2.0 as the call requires? The prepared proposal tests a cost-aware confidence cascade on MMLU; this is a plan, not a result. The call offers a $2,000 stipend plus up to $5,000 in compute and directs applicants to #grants on Slack; no form or message has been sent. This matters because the project has early milestones and requires sustained work for all 12 weeks. Draft: `outreach/P84-OPENMINED-ENSEMBLES-ROUTING-DRAFT-2026-10-16.md`.
 

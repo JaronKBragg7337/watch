@@ -6,7 +6,7 @@ Prepared 2026-10-16 by Codex for Jaron K. Bragg.
 
 ## Applicant
 
-Jaron K. Bragg, independent builder in Fort Wayne, Indiana. I build Heartbeat Observatory, the public `watch` project, and Zeus AI Workbench. AI prepared this draft for Jaron; it has not been reviewed or submitted by him.
+Jaron K. Bragg, solo builder in Fort Wayne, Indiana. I build Heartbeat Observatory, the public `watch` project, and Zeus AI Workbench. AI prepared this draft for Jaron; it has not been reviewed or submitted by him.
 
 ## Project title
 
@@ -20,7 +20,7 @@ This is a proposed experiment. I have not run it and do not know whether the rou
 
 ## Why I am applying
 
-My public work includes a multi-AI system that captures daily information and produces a source-linked brief and market feed. Zeus is a public MIT-licensed, local-first AI workbench built around Ollama, local retrieval, desktop tools, logs, and background workers. These projects show practical work with several AI systems and local models. They are not published research on routing, and I do not claim that this benchmark experiment has already been done.
+My public work includes a multi-AI system that captures daily information and produces a source-linked brief and market feed. Zeus is a public MIT-licensed, local-first AI workbench built around Ollama, local retrieval, desktop tools, logs, and background workers. These projects show practical work with several AI systems and local models. The project record contains no publication or benchmark study on routing, and I do not claim that this benchmark experiment has already been done.
 
 OpenMined's common evaluation setup would let me test whether a clear routing rule improves the accuracy and cost trade-off, and let others reproduce the result.
 
