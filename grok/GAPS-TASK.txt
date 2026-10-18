@@ -1,0 +1,8 @@
+Blind-spot check (Grok Build, 3:35 AM daily). Written 2026-10-18 after the France riots were missed by every desk.
+Read today's capture files in this repo: codex/, claude/, deepseek/, kimi/, msi/, grok/ for today's date (whichever exist).
+Then, using web search and X search for the last 24 hours, list the 15 biggest news events ANYWHERE in the world (by real
+impact and by attention on X and major outlets). For each one, check whether any of today's captures covers it.
+Write grok/YYYY-MM-DD-gaps.md: a short header, then ONLY the events no capture covered, each as one capture-style item
+(what happened, observed/claim label, source class, date/time, 1-2 URLs). If everything big was covered, write "No gaps found."
+Add one last line: which REGION or TOPIC the missed items share, if any (that's the blind spot to fix).
+Write the one file and stop; the caller commits and pushes. Do not post anything anywhere.
