@@ -16,6 +16,11 @@ $tmp = Join-Path $env:TEMP "watch-codex-prompt.txt"
 Set-Content -Path $tmp -Value $prompt -Encoding UTF8
 $log = Join-Path $env:TEMP "watch-codex-run.log"
 Get-Content $tmp | & codex --search exec -m gpt-6-luna -c model_reasoning_effort=max -s workspace-write --skip-git-repo-check -C "C:\Users\lilli\Projects\watch" - > $log 2>&1
+# 10/19: gpt-6-luna was "at capacity" at 3 AM and the capture was lost. If no file, retry once on another model.
+if (-not (Test-Path "codex\$day.md") -and (Select-String -Path $log -Pattern "at capacity" -Quiet)) {
+  Add-Content -Path "collectors\codex_runs.log" -Value ("{0} | luna at capacity - retrying on gpt-6.1-sol" -f (Get-Date -Format "yyyy-MM-dd HH:mm"))
+  Get-Content $tmp | & codex --search exec -m gpt-6.1-sol -c model_reasoning_effort=medium -s workspace-write --skip-git-repo-check -C "C:\Users\lilli\Projects\watch" - > $log 2>&1
+}
 $ok = Test-Path "codex\$day.md"
 $tail = if ($ok) { "wrote codex/$day.md ($((Get-Item "codex\$day.md").Length) bytes)" } else { "NO FILE; last log line: " + ((Get-Content $log -Tail 1) -join " ") }
 Add-Content -Path "collectors\codex_runs.log" -Value ("{0} | {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm"), $tail)
