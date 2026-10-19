@@ -17,9 +17,17 @@ Set-Content -Path $tmp -Value $prompt -Encoding UTF8
 $log = Join-Path $env:TEMP "watch-codex-run.log"
 Get-Content $tmp | & codex --search exec -m gpt-6-luna -c model_reasoning_effort=max -s workspace-write --skip-git-repo-check -C "C:\Users\lilli\Projects\watch" - > $log 2>&1
 # 10/19: gpt-6-luna was "at capacity" at 3 AM and the capture was lost. If no file, retry once on another model.
+# Jaron 10/19: Luna on purpose - in his Framing Lens tests Sol was more selective ("only wanted to pick one answer"), and this
+# capture's job is to report everything. So: wait and retry LUNA first; Sol only as a last resort, and labelled so it's visible.
 if (-not (Test-Path "codex\$day.md") -and (Select-String -Path $log -Pattern "at capacity" -Quiet)) {
-  Add-Content -Path "collectors\codex_runs.log" -Value ("{0} | luna at capacity - retrying on gpt-6.1-sol" -f (Get-Date -Format "yyyy-MM-dd HH:mm"))
+  Add-Content -Path "collectors\codex_runs.log" -Value ("{0} | luna at capacity - waiting 15 min, retrying luna" -f (Get-Date -Format "yyyy-MM-dd HH:mm"))
+  Start-Sleep -Seconds 900
+  Get-Content $tmp | & codex --search exec -m gpt-6-luna -c model_reasoning_effort=max -s workspace-write --skip-git-repo-check -C "C:\Users\lilli\Projects\watch" - > $log 2>&1
+}
+if (-not (Test-Path "codex\$day.md") -and (Select-String -Path $log -Pattern "at capacity" -Quiet)) {
+  Add-Content -Path "collectors\codex_runs.log" -Value ("{0} | luna still at capacity - last resort gpt-6.1-sol (labelled)" -f (Get-Date -Format "yyyy-MM-dd HH:mm"))
   Get-Content $tmp | & codex --search exec -m gpt-6.1-sol -c model_reasoning_effort=medium -s workspace-write --skip-git-repo-check -C "C:\Users\lilli\Projects\watch" - > $log 2>&1
+  if (Test-Path "codex\$day.md") { Add-Content "codex\$day.md" "`n`n> Backup writer: this capture was written by gpt-6.1-sol because gpt-6-luna was at capacity. Compare its selection with Luna's days." }
 }
 $ok = Test-Path "codex\$day.md"
 $tail = if ($ok) { "wrote codex/$day.md ($((Get-Item "codex\$day.md").Length) bytes)" } else { "NO FILE; last log line: " + ((Get-Content $log -Tail 1) -join " ") }
