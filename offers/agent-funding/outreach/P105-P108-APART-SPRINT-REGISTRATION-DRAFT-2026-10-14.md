@@ -4,6 +4,8 @@ Prepared 2026-10-14 by Codex for Jaron K. Bragg.
 
 Status: Draft only. This is wording for the short event-registration form, not a research submission. No registration or project entry has been submitted.
 
+**2026-10-23 status:** The official P105 page still lists signup, but its project form says the submission window has closed, despite the published Oct 25 deadline. No cash entry is available on the page now. This shared draft remains for future P106-P108 registrations; their profile and payout questions remain unresolved.
+
 ## Shared form fields
 
 - First name: Jaron

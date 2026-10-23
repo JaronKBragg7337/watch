@@ -1,6 +1,6 @@
 # P44 - Open Agent Hackathon 2026 - registration draft
 
-Prepared 2026-10-01 and rechecked 2026-10-13 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. The official page now says registration closes October 22. Registration requires a GenAI Academy sign-in; no account or event registration was created in this lane. Confirm the 16+ eligibility answer in `NEEDS-JARON.md` before registering.
+Prepared 2026-10-01 and rechecked 2026-10-13 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. **Status update 2026-10-23:** The registration deadline passed on Oct 22. No account, registration, or event entry was created. This is no longer a current registration handoff; the 16+ eligibility question is no longer active for this event.
 
 ## Opportunity
 
