@@ -5,7 +5,7 @@ Prepared 2026-10-03 by Codex (GPT-6 Luna) for Jaron K. Bragg. Not submitted. Jar
 ## Opportunity
 
 - **What it pays:** $1,000 total cash across the top three entries: $500, $300, and $200. The first five also receive six-month Mozaik Cloud Premium subscriptions. No award is promised.
-- **Deadline and schedule:** Register by 2026-10-27. The online event runs 2026-10-30 to 2026-10-31; the official rules give a submission deadline of 2026-10-31 at 14:00 CET. The schedule says it is a 48-hour build, with exact hours sent by email.
+- **Deadline and schedule:** Current rules say the online event runs Oct 30-31 and submissions close Oct 31 at 14:00 CET. The live application form shows no registration cutoff; a prior page listed Oct 27. The separate homepage still lists Oct 23-25, which conflicts with the rules and form. No application was submitted.
 - **Who can enter:** Worldwide, age 18 or older (or the higher age of majority where the entrant lives). Solo entrants and teams of up to four are allowed. Online entrants may participate from anywhere.
 - **What to build:** A new project using Mozaik (`@mozaik-ai/core`) with at least two agents running concurrently. The brief is announced at kickoff. Existing frameworks and libraries are allowed, but the main work must happen during the event.
 - **How to enter:** Complete the online form with a name, email, online or in-person choice, and solo or team choice. The form says registration is free and creates no commitment until kickoff.
