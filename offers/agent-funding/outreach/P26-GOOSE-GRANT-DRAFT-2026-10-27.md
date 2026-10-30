@@ -1,8 +1,8 @@
 # P26 - Goose Grant Program: draft application
 
-Prepared 2026-10-27 by Codex (GPT-6 Luna) for Jaron K. Bragg.
+Prepared 2026-10-27; updated 2026-10-30 by Codex (GPT-6 Luna) for Jaron K. Bragg.
 
-**Status: Draft concept only. Not submitted.** The program is rolling and advertises $100,000 for a 12-month project. In Chrome, the first form page showed required name, email, and country fields; the remaining five pages were not inspected because continuing would require entering contact information. No form data was entered. Jaron has not confirmed the project direction, year-long commitment, or license for new work. This is a plan, not a built Goose integration.
+**Status: Draft only. Not submitted.** On Oct 30, pages 1-5 of the six-page Google Form were filled, and the form showed "Draft saved" after the latest edits. It is on page 5. The required 12-month commitment is unanswered. The draft has "No" selected for employer/client funding, but that answer is unverified and flagged in the form text. Page 6 has not been inspected. Personal contact answers remain in the private browser form and are not copied here. The project, MIT release plan, milestones, and benefits are proposals, not completed work.
 
 ## Applicant
 
@@ -64,7 +64,7 @@ The Goose page lists a $100,000 grant per project, with milestone-based payments
 
 ## Commitments and open questions
 
-If selected, this project would require work across 12 months, quarterly progress updates, and delivery against milestones agreed with the program. Jaron must confirm that he can take on that commitment, that Goose is the right project direction, and that the new work should use the MIT License. The application form's full question list still needs a browser review.
+The live form asks, "Is this work already funded by an employer or client?" The current draft selects "No," but Jaron must confirm or correct it before submission. It also asks, "Can you commit to working on this project for 12 months?" That required answer is blank. Jaron must confirm the proposed MIT license for new work. If selected, the project requires 12 months of work, milestones, quarterly reviews, and progress updates. Page 6 has not been reviewed. No application has been sent.
 
 ## Sources
 
