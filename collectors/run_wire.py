@@ -37,8 +37,11 @@ PPLX_MONTH_CAP = 1.40      # dollars; the wire's own Perplexity budget is about 
 ALERT_MAX_INDIVIDUAL = 8   # per run; anything beyond goes in ONE rollup note (nothing is dropped)
 ALERT_WINDOW_H = 8         # only alert on items published in the last 8 hours (first run must not replay old news)
 
-# (name, url, class). Reused from run_msi.ps1; AP, Reuters and ISW were dead/403 on 2026-11-05 and are dropped here.
+# (name, url, class). AP, Reuters and ISW direct feeds were dead/403 on 2026-11-05; they come via Google News (11/6).
 FEEDS = [
+    ("AP (via Google News)", "https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en-US&gl=US&ceid=US:en", "press"),
+    ("Reuters (via Google News)", "https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en-US&gl=US&ceid=US:en", "press"),
+    ("ISW (via Google News)", "https://news.google.com/rss/search?q=site:understandingwar.org+when:7d&hl=en-US&gl=US&ceid=US:en", "press"),
     ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml", "press"),
     ("NPR", "https://feeds.npr.org/1004/rss.xml", "press"),
     ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "press"),

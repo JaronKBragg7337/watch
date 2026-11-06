@@ -7,12 +7,12 @@ Set-Location $watch
 $day = (Get-Date).ToString("yyyy-MM-dd")
 $now = Get-Date
 $feeds = @(
-    [pscustomobject]@{ Name = "AP"; Url = "https://apnews.com/apf-topnews?output=1"; Class = "press" },
-    [pscustomobject]@{ Name = "Reuters"; Url = "https://feeds.reuters.com/reuters/worldNews"; Class = "press" },
+    [pscustomobject]@{ Name = "AP (via Google News)"; Url = "https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en-US&gl=US&ceid=US:en"; Class = "press" },
+    [pscustomobject]@{ Name = "Reuters (via Google News)"; Url = "https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en-US&gl=US&ceid=US:en"; Class = "press" },
     [pscustomobject]@{ Name = "BBC World"; Url = "https://feeds.bbci.co.uk/news/world/rss.xml"; Class = "press" },
     [pscustomobject]@{ Name = "NPR"; Url = "https://feeds.npr.org/1004/rss.xml"; Class = "press" },
     [pscustomobject]@{ Name = "Al Jazeera"; Url = "https://www.aljazeera.com/xml/rss/all.xml"; Class = "press" },
-    [pscustomobject]@{ Name = "ISW / Critical Threats"; Url = "https://www.understandingwar.org/rss.xml"; Class = "press" },
+    [pscustomobject]@{ Name = "ISW (via Google News)"; Url = "https://news.google.com/rss/search?q=site:understandingwar.org+when:7d&hl=en-US&gl=US&ceid=US:en"; Class = "press" },
     [pscustomobject]@{ Name = "Ars Technica"; Url = "https://feeds.arstechnica.com/arstechnica/index"; Class = "press" },
     [pscustomobject]@{ Name = "The Verge"; Url = "https://www.theverge.com/rss/index.xml"; Class = "press" },
     [pscustomobject]@{ Name = "OpenAI"; Url = "https://openai.com/news/rss.xml"; Class = "official" }
@@ -29,7 +29,7 @@ foreach ($feed in $feeds) {
         [xml]$xml = $response.Content
         $nodes = $xml.SelectNodes("//*[local-name()='item' or local-name()='entry']")
         if (-not $nodes -or $nodes.Count -eq 0) { throw "No RSS/Atom entries" }
-        foreach ($node in $nodes) {
+        foreach ($node in @($nodes | Select-Object -First 25)) {
             $title = [System.Net.WebUtility]::HtmlDecode([string]$node.SelectSingleNode("./*[local-name()='title']")?.InnerText)
             $urlNode = $node.SelectSingleNode("./*[local-name()='link']")
             $link = [string]$urlNode?.InnerText
