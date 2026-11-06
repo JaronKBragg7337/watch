@@ -12,9 +12,9 @@ words (names and key nouns together). Paraphrase can still fool it, so a flagged
 Buzz: ONE short line, ONLY when a MUST AIR story (3+ outlets, or a safety word) is missing: top 3 by outlet count + how many
 more. The full report file is always written. Wire items first seen after 04:00 are listed separately and never count.
 
-Usage: run_missed_check.py [YYYY-MM-DD] [--no-buzz] [--ignore-cutoff]
+Usage: run_missed_check.py [YYYY-MM-DD] [--no-buzz] [--ignore-cutoff] [--no-publish]
 """
-import json, os, subprocess, sys
+import json, os, shutil, subprocess, sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -28,6 +28,35 @@ NTFY = r"C:\Users\lilli\AI-Shared\tools\ntfy-say.py"
 
 def short(t, n=90):
     return t if len(t) <= n else t[: n - 1].rstrip() + "..."
+
+
+def publish_copy(out_path, day):
+    """Copy the report into the watch repo (news-missed/D.md) and push it, so the site page /news/desk/ can read it."""
+    rel = f"news-missed/{day}.md"
+    try:
+        os.makedirs(os.path.join(WATCH, "news-missed"), exist_ok=True)
+        shutil.copyfile(out_path, os.path.join(WATCH, rel))
+        g = lambda *a, t=120: subprocess.run(["git", *a], cwd=WATCH, capture_output=True, text=True, timeout=t)
+        try:
+            g("pull", "--rebase", "--autostash", "-q", t=150)
+        except subprocess.TimeoutExpired:
+            pass
+        g("add", "--", rel)
+        if g("diff", "--cached", "--quiet", "--", rel).returncode == 0:
+            return "no change"
+        g("commit", "-q", "-m", f"watch: missed-story report {day}", "-m", "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>", "--", rel)
+        r = None
+        for _ in range(3):
+            r = g("push", "-q")
+            if r.returncode == 0:
+                return "pushed"
+            try:
+                g("pull", "--rebase", "--autostash", "-q", t=150)
+            except subprocess.TimeoutExpired:
+                pass
+        return "PUSH FAILED: " + r.stderr.strip()[:200]
+    except Exception as e:
+        return f"git error: {e}"
 
 
 def main():
@@ -85,12 +114,18 @@ def main():
         L.append(f"- ... and {len(should_miss) - 40} more.")
     L += ["", "## One-outlet stories not found (first 20; the rest are noise)"]
     L += [f"- {short(c['best']['title'], 120)} ({c['best']['outlet']}) {c['best']['url']}" for c in single_miss[:20]] or ["- None."]
+    L += ["", "## MUST AIR stories that aired (listed so the /news/desk/ page can mark them AIRED)"]
+    L += [line(c) for c in must_ok] or ["- None."]
+    L += ["", "## SHOULD AIR stories that aired"]
+    L += [line(c) for c in should_ok] or ["- None."]
     L += ["", "## After the writers' cutoff (wire stories first seen after 04:00; never counted as misses)"]
     late = [c for c in late_clusters if sc.tier(c) in ("must", "should")]
     late.sort(key=lambda c: (not c["safety"], -c["n_outlets"]))
     L += [f"- [{c['first_seen']}] {c['best']['title']} ({c['n_outlets']} outlets{'; SAFETY WORDS: ' + ', '.join(c['safety']) if c['safety'] else ''}) {c['best']['url']}" for c in late[:25]] or ["- None."]
     open(out_path, "w", encoding="utf-8").write("\n".join(L) + "\n")
     print(f"{day}: stories {len(clusters)}, MUST aired {len(must_ok)}, MUST missed {len(must_miss)}, SHOULD not found {len(should_miss)} -> {out_path}")
+    if "--no-publish" not in sys.argv:
+        print("watch repo copy:", publish_copy(out_path, day))
 
     if must_miss and not nobuzz:
         top = must_miss[:3]
