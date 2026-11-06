@@ -96,7 +96,10 @@ DOMAIN_RULES = [  # same order and patterns as Get-Domain in run_msi.ps1, plus e
 SAFETY = [
     ("chemical", r"\bchemical"),
     ("biological", r"\bbiological|\bbioweapon|\bbio-?terror|\banthrax\b"),
-    ("nuclear", r"\bnuclear"),
+    # 11/5: bare "nuclear" flagged cost/diplomacy stories (Fukushima bill, Iran proposals). Keep anything that reads as a
+    # threat or an accident: weapons, strikes, tests, launches, leaks, radiation, alerts, attacks on plants.
+    ("nuclear", r"\bnuclear\b.{0,60}\b(weapon|warhead|bomb|strike|attack|test|missile|launch|threat|escalat|doctrine|drill|mobiliz|explosion|blast|leak|meltdown|radiation|alert|emergency|shell|drone)"
+                r"|\b(weapon|warhead|bomb|strike|attack|test|missile|launch|threat|escalat|doctrine|drill|mobiliz|explosion|blast|leak|meltdown|radiation|alert|emergency|shell|drone)\w*\b.{0,60}\bnuclear\b"),
     ("radiological", r"\bradiological|\bradiation (leak|release|alert)"),
     ("WMD", r"\bwmd\b|weapons? of mass destruction"),
     ("dirty bomb", r"dirty bomb"),
