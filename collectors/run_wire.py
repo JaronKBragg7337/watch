@@ -421,6 +421,11 @@ def main():
     state["pplx"] = [c for c in state.get("pplx", []) if c["ts"] >= (NOW - timedelta(days=62)).strftime("%Y-%m-%d")]
     json.dump(state, open(STATE, "w", encoding="utf-8"))
 
+    try:   # must-cover list (11/6): always fresh next to the wire; the hourly push below carries it
+        import build_top
+        build_top.build(DAY)
+    except Exception as e:
+        notes.append(f"build_top failed (the 3:33 task retries): {e}")
     status = "no push" if "--no-push" in args else push(DAY)
     month_spend = sum(c["cost"] for c in state.get("pplx", []) if c["ts"].startswith(NOW.strftime("%Y-%m")))
     msg = (f"{NOW:%Y-%m-%d %H:%M} wire: {len(new)} new items (day total {len(all_today)}), feeds failed {len(fails)}/{len(FEEDS)}, "
