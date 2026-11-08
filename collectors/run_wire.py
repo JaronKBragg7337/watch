@@ -61,6 +61,8 @@ FEEDS = [
     ("OpenAI", "https://openai.com/news/rss.xml", "official"),
     # official sources speaking for themselves
     ("US State Dept", "https://www.state.gov/rss-feed/press-releases/feed/", "official"),
+    ("State Dept travel advisories", "https://travel.state.gov/_res/rss/TAsTWs.xml", "official"),
+    ("CISA cyber advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml", "official"),
     ("US Defense Dept", "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=10", "official"),
     ("White House", "https://www.whitehouse.gov/news/feed/", "official"),
     ("Federal Reserve", "https://www.federalreserve.gov/feeds/press_all.xml", "official"),
