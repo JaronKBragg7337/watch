@@ -99,7 +99,9 @@ DOMAIN_RULES = [  # same order and patterns as Get-Domain in run_msi.ps1, plus e
 
 # ---- safety hook -----------------------------------------------------------------------------------------------
 SAFETY = [
-    ("chemical", r"\bchemical"),
+    # 11/9: bare "chemical" flagged business news (Mitsui Chemicals takeover). Keep weapons, attacks and accidents.
+    ("chemical", r"\bchemical\w*\b.{0,60}\b(weapon|attack|strike|agent|nerve|gas|sarin|chlorine|mustard|spill|leak|release|explosion|blast|fire|toxic|poison|warfare|threat|evacuat|emergency|alert)"
+                 r"|\b(weapon|attack|strike|agent|nerve|gas|sarin|chlorine|mustard|spill|leak|release|explosion|blast|fire|toxic|poison|warfare|threat|evacuat|emergency|alert)\w*\b.{0,60}\bchemical"),
     ("biological", r"\bbiological|\bbioweapon|\bbio-?terror|\banthrax\b"),
     # 11/5: bare "nuclear" flagged cost/diplomacy stories (Fukushima bill, Iran proposals). Keep anything that reads as a
     # threat or an accident: weapons, strikes, tests, launches, leaks, radiation, alerts, attacks on plants.
