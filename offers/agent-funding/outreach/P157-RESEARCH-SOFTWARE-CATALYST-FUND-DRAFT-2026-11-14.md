@@ -1,6 +1,6 @@
 # P157 — Research Software Catalyst Fund — Exploratory Grants 2026
 
-Prepared 2026-11-14 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: draft ready for a browser-enabled application review; not submitted.** The official application page returned HTTP 403 to the available reader, and no browser was available on this machine. The actual form and award agreement have not been inspected.
+Prepared 2026-11-14 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: draft ready for a browser-enabled application review; not submitted.** The official application page returned HTTP 403 to the web reader on Nov 14 and Nov 15. On Nov 15, Chrome was listed on the machine, but Computer Use access to Chrome was not approved. The actual form and award agreement have not been inspected.
 
 ## Applicant and disclosure
 
