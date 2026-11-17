@@ -36,6 +36,8 @@ PER_FEED_CAP = 12          # newest N per feed per run, keeps the day's file rea
 PPLX_MONTH_CAP = 1.40      # dollars; the wire's own Perplexity budget is about $1.50 a month
 ALERT_MAX_INDIVIDUAL = 8   # per run; anything beyond goes in ONE rollup note (nothing is dropped)
 ALERT_WINDOW_H = 8         # only alert on items published in the last 8 hours (first run must not replay old news)
+FOLLOWUP_H = 6             # 11/17: same story (same safety words + 2 shared content words) alerted in the last 6 h = a follow-up,
+                           # batched into ONE follow-up note per 3 h instead of a new alert per outlet (the DC dirty-bomb story came 8x)
 
 # (name, url, class). AP, Reuters and ISW direct feeds were dead/403 on 2026-11-05; they come via Google News (11/6).
 FEEDS = [
@@ -317,7 +319,21 @@ def mailbox(to, subject, body):
         return False
 
 
-def alert(new_items, send=True):
+def is_followup(it, log):
+    """Same safety words as an alert in the last FOLLOWUP_H hours AND 2+ shared content words (not the safety words)."""
+    hits = set(it["alert_hits"])
+    mine = tokens(it["title"]) - {w for h in hits for w in h.split()}
+    for a in log:
+        if set(a["hits"]) == hits and len(mine & (set(a["words"]) - {w for h in hits for w in h.split()})) >= 2:
+            return a
+    return None
+
+
+def alert(new_items, send=True, state=None):
+    state = state if state is not None else {}
+    cut = (NOW - timedelta(hours=FOLLOWUP_H)).isoformat(timespec="minutes")
+    log = [a for a in state.get("alert_log", []) if a["t"] >= cut]
+    pending = [f for f in state.get("followups", []) if f["t"] >= cut]
     cands = []
     for it in new_items:
         hits = safety_hits(it["title"])
@@ -329,6 +345,26 @@ def alert(new_items, send=True):
         it["alert_hits"] = hits
         cands.append(it)
     sent = 0
+    fresh = []
+    for it in cands:
+        first = is_followup(it, log)
+        if first:
+            pending.append({"t": NOW.isoformat(timespec="minutes"), "first": first["title"][:90],
+                            "line": f"- [{it['seen']}] {it['title']} - {it['source']} - {it['url']}"})
+            it["alerted"] = "followup"
+        else:
+            fresh.append(it)
+            log.append({"t": NOW.isoformat(timespec="minutes"), "hits": it["alert_hits"], "title": it["title"], "words": sorted(tokens(it["title"]))})
+    cands = fresh
+    last_fu = state.get("followup_sent", "")
+    if pending and last_fu < (NOW - timedelta(hours=3)).isoformat(timespec="minutes"):
+        body = ("Follow-up reports on stories ALREADY flagged (no new story; Satya decides the level). Grouped so each story "
+                "alerts once:" + chr(10) + chr(10).join(f"{f['line']}  (follows: {f['first']})" for f in pending))
+        ok = (not send) or (mailbox("satya-twin", f"WIRE follow-ups: {len(pending)} more reports on flagged stories", body) &
+                            mailbox("claude", f"WIRE follow-ups: {len(pending)} more reports on flagged stories", body))
+        if ok:
+            state["followup_sent"], pending = NOW.isoformat(timespec="minutes"), []
+    state["alert_log"], state["followups"] = log, pending
     individual, rest = cands[:ALERT_MAX_INDIVIDUAL], cands[ALERT_MAX_INDIVIDUAL:]
     for it in individual:
         subj = f"WIRE: {', '.join(it['alert_hits'])} - {it['title'][:70]}"
@@ -414,7 +450,7 @@ def main():
 
     n_alert, n_sent = (0, 0)
     if new and "--no-alerts" not in args:
-        n_alert, n_sent = alert(new)
+        n_alert, n_sent = alert(new, state=state)
     for it in new:
         it.pop("pub_dt", None)
         it.pop("alert_hits", None)
