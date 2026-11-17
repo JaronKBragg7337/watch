@@ -319,12 +319,30 @@ def mailbox(to, subject, body):
         return False
 
 
+SYN = {"dc": "washington", "d.c": "washington", "us": "america", "u.s": "america", "american": "america",
+       "iranian": "iran", "tehran": "iran", "russian": "russia", "moscow": "russia", "chinese": "china", "beijing": "china"}
+
+
+def norm(words):
+    """11/17: 'plan'/'plans' and 'DC'/'Washington' must match, or follow-ups slip through as new alerts."""
+    out = set()
+    for w in words:
+        w = SYN.get(w, w)
+        if len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        out.add(w)
+    return out
+
+
 def is_followup(it, log):
-    """Same safety words as an alert in the last FOLLOWUP_H hours AND 2+ shared content words (not the safety words)."""
+    """Same safety words as an alert in the last FOLLOWUP_H hours AND 2+ shared content words (normalized; not the
+    safety words). A match also folds the follow-up's words into that story, so the story's word set grows with it."""
     hits = set(it["alert_hits"])
-    mine = tokens(it["title"]) - {w for h in hits for w in h.split()}
+    skip = {w for h in hits for w in h.split()}
+    mine = norm(tokens(it["title"]) - skip)
     for a in log:
-        if set(a["hits"]) == hits and len(mine & (set(a["words"]) - {w for h in hits for w in h.split()})) >= 2:
+        if set(a["hits"]) == hits and len(mine & (norm(a["words"]) - skip)) >= 2:
+            a["words"] = sorted(set(a["words"]) | mine)
             return a
     return None
 
