@@ -12,6 +12,6 @@ $tokLine = Get-Content "$HOME\.secrets\keys.env" | Where-Object { $_ -match "^CL
 if ($tokLine) { $env:CLAUDE_CODE_OAUTH_TOKEN = ($tokLine -split "=",2)[1].Trim().Trim([char]34) }
 $prompt = "Read C:\Users\lilli\.claude\scheduled-tasks\watch-collect\SKILL.md and do exactly what it says for today ($day). Stop when claude/$day.md is pushed."
 $out = Join-Path $env:TEMP "watch-claude-desk.log"
-& claude -p $prompt --permission-mode acceptEdits --add-dir "C:\Users\lilli\AI-Shared" --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(git:*),Bash(date:*)" > $out 2>&1
+& claude -p $prompt --model claude-sonnet-5-5 --permission-mode acceptEdits --add-dir "C:\Users\lilli\AI-Shared" --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(git:*),Bash(date:*)" > $out 2>&1
 $ok = Test-Path "claude\$day.md"
 Add-Content -Path $log -Value ("{0} | claude desk capture {1}: {2}" -f (Get-Date -Format "yyyy-MM-dd HH:mm"), $day, $(if ($ok) { "written" } else { "NO FILE: " + ((Get-Content $out -Tail 1) -join " ") }))
