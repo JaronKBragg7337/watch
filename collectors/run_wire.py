@@ -403,7 +403,16 @@ def alert(new_items, send=True, state=None):
 
 
 def git(*a):
-    return subprocess.run(["git", *a], cwd=WATCH, capture_output=True, text=True, timeout=120)
+    """Retries while another desk holds the index lock; a timeout comes back as a failed result instead of raising (11/19)."""
+    for _ in range(6):
+        try:
+            r = subprocess.run(["git", *a], cwd=WATCH, capture_output=True, text=True, timeout=120)
+        except subprocess.TimeoutExpired:
+            return subprocess.CompletedProcess(a, 124, "", f"git {a[0]} timed out after 120s")
+        if r.returncode == 0 or "index.lock" not in (r.stderr or ""):
+            return r
+        __import__("time").sleep(10)
+    return r
 
 
 def push(day):
@@ -413,7 +422,9 @@ def push(day):
         if a.returncode != 0:   # 11/19: a corrupt object made add fail and this used to say "nothing new to commit" for 10 hours
             return "ADD FAILED: " + a.stderr.strip()[:200]
         if git("diff", "--cached", "--quiet", "--", "wire").returncode != 0:
-            git("commit", "-q", "-m", f"watch: wire {day} {NOW.strftime('%H:%M')}", "-m", "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>", "--", "wire")
+            c = git("commit", "-q", "-m", f"watch: wire {day} {NOW.strftime('%H:%M')}", "-m", "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>", "--", "wire")
+            if c.returncode != 0:
+                return "COMMIT FAILED: " + ((c.stderr or c.stdout) or "").strip()[:200]
             r = git("push", "-q")
             return "pushed" if r.returncode == 0 else "PUSH FAILED: " + r.stderr.strip()[:200]
         return "nothing new to commit"
@@ -491,6 +502,16 @@ def main():
     except Exception as e:
         notes.append(f"build_top failed (the 3:33 task retries): {e}")
     status = "no push" if "--no-push" in args else push(DAY)
+    # A failed add/commit/push used to sit in wire_runs.log where nobody looked (11/18 22:28 -> 10 silent hours). Tell Claude,
+    # once per day per kind, so it can be fixed the same hour. The 3 AM source gate also catches it before the show.
+    kind = status.split(":")[0]
+    if kind in ("ADD FAILED", "COMMIT FAILED", "PUSH FAILED") or status.startswith("git error"):
+        flag = os.path.join(WATCH, "collectors", f".wire-alert-{DAY}-{kind.split()[0].lower()}")
+        if not os.path.exists(flag) and mailbox("claude", f"WIRE git problem: {kind}", f"The hourly wire run at {NOW:%H:%M} could not save to GitHub:\n{status}\n\n"
+                                         "Until this is fixed, nothing new in the watch repo reaches GitHub (the 3:45 cloud news writer reads it). "
+                                         "Check Projects/watch with git status / git fsck. Log: collectors/wire_runs.log"):
+            with open(flag, "w", encoding="utf-8") as fh:
+                fh.write(status)
     month_spend = sum(c["cost"] for c in state.get("pplx", []) if c["ts"].startswith(NOW.strftime("%Y-%m")))
     msg = (f"{NOW:%Y-%m-%d %H:%M} wire: {len(new)} new items (day total {len(all_today)}), feeds failed {len(fails)}/{len(FEEDS)}, "
            f"safety matches {n_alert} (notes sent {n_sent}), perplexity cost ${cost:.4f} (month ${month_spend:.3f}), {status}")
