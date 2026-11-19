@@ -409,7 +409,9 @@ def git(*a):
 def push(day):
     try:
         git("pull", "--rebase", "--autostash", "-q")
-        git("add", "--", "wire")
+        a = git("add", "--", "wire")
+        if a.returncode != 0:   # 11/19: a corrupt object made add fail and this used to say "nothing new to commit" for 10 hours
+            return "ADD FAILED: " + a.stderr.strip()[:200]
         if git("diff", "--cached", "--quiet", "--", "wire").returncode != 0:
             git("commit", "-q", "-m", f"watch: wire {day} {NOW.strftime('%H:%M')}", "-m", "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>", "--", "wire")
             r = git("push", "-q")
