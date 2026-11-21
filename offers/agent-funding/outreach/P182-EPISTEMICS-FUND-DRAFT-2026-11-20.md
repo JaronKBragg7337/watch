@@ -1,6 +1,6 @@
 # P182 — Epistemics Fund (Ought / Lightcone Commons) — application draft
 
-Prepared 2026-11-20 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SUBMIT after Jaron supplies the missing references and budget direction; not submitted.** The official Lightcone Commons application page requires sign-in. The available browser host was unavailable, so the live form and its fund-specific fields could not be inspected.
+Prepared 2026-11-20 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SUBMIT after Jaron supplies three references; not submitted.** The fund-specific application route is https://www.lightconecommons.com/epistemics/apply. Computer Use did not approve access to Chrome, so the form and any account-gated fields were not inspected.
 
 ## Applicant disclosure
 
@@ -33,13 +33,13 @@ Jaron K. Bragg is the human project owner and would lead the proposed work. Code
 
 The proposed evaluation would use public sources and resolved market outcomes. No private account data or wallet access is needed. Existing public work is evidence that the systems and records exist; it is not evidence of external adoption, measured accuracy gains, or completion of the proposed reliability layer. New code and documentation would be published with clear license information after checking the existing repository terms and any third-party material.
 
-The fund lead said this fund's round would close no earlier than Nov 26, 2026; a public fund listing gives Nov 26 as the deadline, so confirm the date on the live portal. The fund plans to distribute $500,000-$5 million in total. That is a total pool, not a promised grant amount to one applicant. Lightcone Commons says its application has four sections and can be edited after submission; the application account itself is sign-in gated. The main application page lists projects, funding use, people involved, and project logistics. The fund-specific form and any additional requirements have not been inspected.
+The fund lead said this fund would close no earlier than Nov 26, 2026; the dedicated fund listing gives Nov 26. The planned $500,000-$5 million is the fund's total pool, not a per-project amount. The fund listing describes the application as a few bullets plus three references. The general Lightcone Commons Round 2 closed Nov 15; its official page says later general applications move to the next round. The relationship between the dedicated Epistemics deadline and the general round, along with the Epistemics decision date, was not verified.
 
 ## Application status and handoff
 
-- Apply through https://epistemic.fund/ and the Lightcone Commons application portal: https://www.lightconecommons.com/apply
-- The live account-gated form was not reached. The browser access host was unavailable on 2026-11-20.
-- A public fund listing reports a request for three people who can vouch for the applicant; confirm the live field and provide the names/links only after Jaron identifies people who agree to be listed.
-- Confirm the project amount and time period if the form requests them. No project-specific budget is in the current record.
-- Estimated AI time to finalize and submit: 20-35 minutes after those facts and account access are available.
+- Apply through https://epistemic.fund/ and the dedicated Lightcone Commons route: https://www.lightconecommons.com/epistemics/apply.
+- The fund-specific live form was not reached. Computer Use did not approve access to Chrome on 2026-11-21.
+- The public listing says the dedicated application asks for three people who can vouch for the applicant. Jaron must identify those people and confirm they agree to be named; no references are in the project files.
+- No per-project amount or budget question is published. If the live form requires an amount or schedule, update NEEDS-JARON.md rather than inventing one.
+- Estimated AI time to condense this draft and submit: 20-35 minutes after the references and an authorized signed-in session are available.
 - No account was created, no application data was entered, and no application was submitted.
