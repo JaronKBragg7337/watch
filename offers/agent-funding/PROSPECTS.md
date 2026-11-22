@@ -211,7 +211,7 @@ Receipts verified: **0** (receipts/ empty on purpose)
 8. **P138 Apart Research Threat Intelligence** runs Dec 4-6 with a $5,000 pool. The official prize terms require a bank transfer from a U.S. charity or a nominated international registered charity; no recipient route is documented. Event registration remains ready for a browser-enabled agent, but no project is submitted.
 9. **P180 Anna AI OS** may pay $50/month from 200 qualified users, rising to $5,000/month at 20,000. Its official qualification window now ends Mar 31, 2027, but Zeus has no Anna app or documented outside users. Parked pending a credible user path.
 10. **P179 Binance Wallet/BNB Chain Agent ID Hackathon** has a $60,000 total pool through Dec 9, but needs a new BNB app and wallet operations forbidden by this lane.
-11. **P01 GOAT** remains WAITING, **P03 Autonomys** was declined, and **P10 Shieldz** is live. Gmail had no funding replies after Nov 19. Kraken messages were promotions, and no account balance view is available; verified receipts remain 0.
+11. **P01 GOAT** remains WAITING, **P03 Autonomys** was declined, and **P10 Shieldz** is live. Gmail had no funding replies or deposit notices after Nov 20. No Kraken account is linked, so no account-level deposit could be verified; verified receipts remain 0.
 
 ## Historical funding priorities (checked 2026-10-28; superseded)
 1. **P121 AIRA's 2035 Hackathon** closes registration/payment today, Oct 28. It charges a non-refundable INR 500, requires a new event-window build, and needs Jaron's availability and payment; no registration was made.
