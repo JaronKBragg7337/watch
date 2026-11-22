@@ -1,6 +1,8 @@
 # What the funding lane needs from Jaron
 Only things an AI could not find or truthfully fill in. Newest at the top. Not an approval queue.
-Updated: 2026-11-21 by Codex (GPT-6 Luna).
+Updated: 2026-11-22 by Codex (GPT-6 Luna).
+
+- **P185 - Slapjam #3 AI Game Jam (Nov 28-30):** Can a browser-enabled AI use an existing itch.io account on the MSI to join and submit the entry? The jam allows an AI agent to make the whole game, but the new game must be built after the theme appears on Nov 28 and submitted through itch.io by Nov 30 at 15:00 UTC; the page also requires a valid private prize-contact email. This matters because no itch.io account or signed-in session is recorded, and the account is required to submit. No game or entry exists yet.
 
 - **P182 - Epistemics Fund (Nov 26):** Who are three people who can vouch for you and this work, and may their names/contact links be shared with the evaluators? The public listing for the fund-specific application says it asks for three references; the live form could not be inspected. This matters because we must not invent endorsements or share another person's details without permission. The fund-specific route is https://www.lightconecommons.com/epistemics/apply; Computer Use did not approve access to Chrome, so no account or form was accessed. The general Lightcone Round 2 closed Nov 15, but the Epistemics Fund has its own Nov 26 deadline. The $500,000-$5 million figure is the fund's total pool, not an individual award; no per-project amount or separate budget question is published. A draft is ready at outreach/P182-EPISTEMICS-FUND-DRAFT-2026-11-20.md.
 
