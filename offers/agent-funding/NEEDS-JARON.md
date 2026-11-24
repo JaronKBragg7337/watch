@@ -1,6 +1,54 @@
 # What the funding lane needs from Jaron
 Only things an AI could not find or truthfully fill in. Newest at the top. Not an approval queue.
-Updated: 2026-11-23 by Codex (GPT-6 Luna).
+Updated: 2026-11-23 night by Jarons Twin (America/Indianapolis), after the LLC bank account, ID card, and signed operating agreement. A backup of the earlier version is NEEDS-JARON.bak-2026-11-23.md, in this same folder. Nothing below was applied for, signed up for, or sent.
+
+## Status as of 11/23/2026
+UNBLOCKED tonight: Heartbeat Observatory LLC has its own Bluevine business checking account and a debit card (opened tonight), Jaron has his ID card back, and the operating agreement was signed today. Never write account, routing, or card numbers in this file or anywhere else.
+
+## Top 3 money-soonest
+These are the soonest real grants or loans a brand-new (under one year, little or no revenue) Indiana single-member LLC can try now. Each one was checked against its official page on 11/23/2026. None is a sure thing. Start only when Jaron says yes.
+
+### 1. Verizon Small Business Digital Ready grant — $10,000 (free)
+- Eligibility: for-profit small business in the U.S., owner 18 or older; one application per owner. No business-age, revenue, or credit rule is stated. You first finish any two free Digital Ready courses or events.
+- Time to money: 10 businesses are picked each month from June through December 2026. If you are not picked one month, the same application stays in for later months. Finalists are notified about six weeks after the end of the month. Everyone gets a final decision by January 12, 2027. Odds are low (about 70 winners nationwide).
+- First step: Make a free Digital Ready account, finish two short courses or events, then fill in the unlocked application (about 30 minutes).
+- Official page: https://digitalready.verizonwireless.com/funding/details
+- Verified tonight on that page. Courses or events must be completed between January 1 and December 7, 2026. A third-party listing said applications close December 1; that date is not on Verizon's page, so treat December 1 as unverified. To be in the December picks, do the courses and apply this week.
+
+### 2. Fortitude Fund Founders Grant — $1,000 (Northeast Indiana, including Allen County / Fort Wayne)
+- Eligibility: for-profit business headquartered in one of 11 Northeast Indiana counties (Allen is one), early-stage, not a nonprofit. They prefer some customer engagement or a working product, but sales are not required. They judge the founder as much as the idea. Grantees agree to stay in touch.
+- Time to money: no official decision time or deadline is posted. The application form is live now.
+- First step: Record a public video of 3 minutes or less (Jaron pitching the business and the site), then submit the online form. A September draft is in outreach/P14-FORTITUDE-FUND-1000-application-DRAFT-2026-09-26.md.
+- Official pages: https://fortitudefund.com/grants/ and https://fortitudefund.com/1000-video/
+- Verified tonight on those pages. A Fortitude LinkedIn post from October 2026 said applications close late November; that close date is not on the official site, so it is unverified. Apply now, or email hello@fortitudefund.com to confirm the current window.
+
+### 3. Kiva U.S. 0% loan — $1,000 to $15,000
+- Eligibility: 18 or older, live and operate in the U.S. (not Nevada or North Dakota), not in foreclosure, bankruptcy, or under liens. No minimum credit score and no years-in-business rule are stated. No interest, no fees, no collateral. You need a PayPal account (that is how Kiva pays you and how you repay). Friends, family, or customers must lend to you first in a private fundraising period. Crypto-related businesses are ineligible; this loan has to be for the media and games business, not crypto trading.
+- Time to money, from the official page: application 30-60 minutes, approval 20-25 business days, private fundraising usually 10-15 days, then public fundraising usually 20-30 days. Altogether that is about 2 to 3 months if the loan is approved and fully funded.
+- First step: Start the online application and have a PayPal account ready.
+- Official page: https://www.kiva.org/borrow/small-business-loans
+- Verified tonight on that page.
+
+## Now unblocked by the ID card, the business bank account, and the signed operating agreement
+- Finish the existing Stripe account as the LLC and turn on site tips (the tip button is already built). This is not a grant, but if tips come in it can be the fastest cash. Stripe's first-payout help (cited in tonight's other funding note) often puts the first payout about 7 to 14 days after the first successful charge; I did not re-open that Stripe page in this pass.
+- Apple Developer ($99/year) and Google Play ($25) once there is money in the business account.
+- The LLC can now receive grant or loan payouts by bank transfer. Never write account or card numbers here.
+- P138 (Apart Research prize): a U.S. bank transfer to the LLC is now possible. Still needs Jaron's yes on accepting the transfer and on the license terms.
+- P11 (Angels for Agents): identity verification is now possible if the application advances. Still needs Jaron's yes that he is willing.
+- P14 (Fortitude, in the top 3 above): ID and the bank were not the remaining blockers. The 3-minute video and Jaron's confirmation of the form answers still are.
+
+## Also open, but slower or not a fit yet
+- Brightpoint Development Fund (SBA microlender and CDFI in Fort Wayne): microloans of $5,000 to $50,000 for start-ups, 36-60 months, 8-10% interest, $75 to apply, 1-3% origination. Serves Allen County. Their lending-process PDF says processing takes 2-4 months. Needs Indiana registration, an EIN, a business plan, and other documents; they also require being current on child support. First step: call (260) 399-4108 or start the eligibility questionnaire. Official page: https://www.mybrightpoint.org/index.php/small-business-assistance/  Verified tonight.
+- FUTO microgrants of $1,000 to $5,000 for small or early-stage projects, rolling, by email to grantapps@futo.org. No official decision time is posted. Official page: https://futo.tech/grants  Verified open tonight. A draft email is at outreach/P161-FUTO-MICROGRANT-APPLICATION-DRAFT-2026-11-15.md. Send it only if Jaron says yes.
+- Northeast Indiana SBDC: free counseling that helps with loan packages, often useful before a Brightpoint application. Official location page: https://isbdc.org/locations/northeast-indiana-sbdc/  That listing gives (260) 481-0500. I did not get the page itself to load in this pass, so treat the phone number as partly verified.
+- Accion Opportunity Fund: not a fit now. Official rules require at least 2 years in business and $300,000 revenue in the past year. https://aofund.zendesk.com/hc/en-us/articles/26804416541709-What-are-the-eligibility-requirements-for-a-loan-with-AOF
+- Bluevine's own line of credit: not a fit now. Official rules require 12+ months in business and $10,000 in monthly revenue. https://www.bluevine.com/business-loans/line-of-credit
+- Amber Grant (WomensNet): not a fit. Official rules require the business to be at least 50% women-owned.
+- Hello Alice: the official grants page on 11/23 said no programs are available at the moment. A free profile can watch for new rounds. https://www.helloalice.com/small-business-grants-and-funding
+
+A longer funding memo from earlier tonight is at C:\Users\lilli\AI-Shared\projects\life\opportunities\FUNDING-2026-11-23.md. The top 3 above were re-checked against official pages in this refresh.
+
+## Open questions the funding lane still needs
 
 - **P100 - Agentware AI Agent Hackathon (team formation closes Nov 23; exact cutoff time is not published):** Can you be available for the new build from Nov 27 18:00 UTC through Nov 30 18:00 UTC and explain the result if selected? All project code must be written during the 72-hour window, with a public OSI-licensed repo, unattended action, readable traces, safety file, and short demo; Codex/AI coding tools are allowed. This matters because a person must be available to explain the work, and no Discord registration or code exists. No answer about event availability is recorded.
 - **P185 - Slapjam #3 AI Game Jam (Nov 28-30):** Can a browser-enabled AI use an existing itch.io account on the MSI to join and submit the entry? The jam allows an AI agent to make the whole game, but the new game must be built after the theme appears on Nov 28 and submitted through itch.io by Nov 30 at 15:00 UTC; the page also requires a valid private prize-contact email. This matters because no itch.io account or signed-in session is recorded, and the account is required to submit. No game or entry exists yet.
