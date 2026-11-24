@@ -1,6 +1,7 @@
 # What the funding lane needs from Jaron
 Only things an AI could not find or truthfully fill in. Newest at the top. Not an approval queue.
 Updated: 2026-11-23 night by Jarons Twin (America/Indianapolis), after the LLC bank account, ID card, and signed operating agreement. A backup of the earlier version is NEEDS-JARON.bak-2026-11-23.md, in this same folder. Nothing below was applied for, signed up for, or sent.
+Checked by Codex on 2026-11-24. The Verizon grant details below were refreshed against the official page; no account or course completion was checked.
 
 ## Status as of 11/23/2026
 UNBLOCKED tonight: Heartbeat Observatory LLC has its own Bluevine business checking account and a debit card (opened tonight), Jaron has his ID card back, and the operating agreement was signed today. Never write account, routing, or card numbers in this file or anywhere else.
@@ -13,7 +14,7 @@ These are the soonest real grants or loans a brand-new (under one year, little o
 - Time to money: 10 businesses are picked each month from June through December 2026. If you are not picked one month, the same application stays in for later months. Finalists are notified about six weeks after the end of the month. Everyone gets a final decision by January 12, 2027. Odds are low (about 70 winners nationwide).
 - First step: Make a free Digital Ready account, finish two short courses or events, then fill in the unlocked application (about 30 minutes).
 - Official page: https://digitalready.verizonwireless.com/funding/details
-- Verified tonight on that page. Courses or events must be completed between January 1 and December 7, 2026. A third-party listing said applications close December 1; that date is not on Verizon's page, so treat December 1 as unverified. To be in the December picks, do the courses and apply this week.
+- Official page rechecked 2026-11-24: two eligible courses or events must be completed by December 7, 2026 to unlock the application. Once unlocked, apply once during 2026; the official page says finalists are selected monthly through December and all applicants receive a final decision by January 12, 2027. A third-party December 1 cutoff is not stated on Verizon's page, so do not rely on it.
 
 ### 2. Fortitude Fund Founders Grant — $1,000 (Northeast Indiana, including Allen County / Fort Wayne)
 - Eligibility: for-profit business headquartered in one of 11 Northeast Indiana counties (Allen is one), early-stage, not a nonprofit. They prefer some customer engagement or a working product, but sales are not required. They judge the founder as much as the idea. Grantees agree to stay in touch.
@@ -49,6 +50,8 @@ These are the soonest real grants or loans a brand-new (under one year, little o
 A longer funding memo from earlier tonight is at C:\Users\lilli\AI-Shared\projects\life\opportunities\FUNDING-2026-11-23.md. The top 3 above were re-checked against official pages in this refresh.
 
 ## Open questions the funding lane still needs
+
+- **P190 - Verizon Small Business Digital Ready $10,000 grant:** Has Jaron already created a Digital Ready account or submitted the 2026 grant application for any business? If not, can he personally create the account and complete two qualifying courses or events by Dec 7, then confirm the applicant is the owner of a U.S. for-profit business and is at least 18? This matters because the grant permits only one application and unlocks only after the activities are complete; we must not guess the owner attestations or repeat an existing application. The application takes about 30 minutes. If selected as a finalist, the owner must provide business/financial verification, including a W-9 and ACH details, and is responsible for the grant's taxes. Chrome access for the application was blocked by Computer Use on Nov 24; no account or form was accessed and no application was submitted. Official details: https://digitalready.verizonwireless.com/funding/details
 
 - **P100 - Agentware AI Agent Hackathon (team formation closes Nov 23; exact cutoff time is not published):** Can you be available for the new build from Nov 27 18:00 UTC through Nov 30 18:00 UTC and explain the result if selected? All project code must be written during the 72-hour window, with a public OSI-licensed repo, unattended action, readable traces, safety file, and short demo; Codex/AI coding tools are allowed. This matters because a person must be available to explain the work, and no Discord registration or code exists. No answer about event availability is recorded.
 - **P185 - Slapjam #3 AI Game Jam (Nov 28-30):** Can a browser-enabled AI use an existing itch.io account on the MSI to join and submit the entry? The jam allows an AI agent to make the whole game, but the new game must be built after the theme appears on Nov 28 and submitted through itch.io by Nov 30 at 15:00 UTC; the page also requires a valid private prize-contact email. This matters because no itch.io account or signed-in session is recorded, and the account is required to submit. No game or entry exists yet.
