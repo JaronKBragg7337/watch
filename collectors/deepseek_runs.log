@@ -66,3 +66,4 @@
 2026-11-23 03:40 | wrote C:\Users\lilli\Projects\watch\deepseek\2026-11-23.md (28756 chars) from 7 captures: claude, codex, grok, kimi, msi, perplexity, wire
 2026-11-24 03:40 | wrote C:\Users\lilli\Projects\watch\deepseek\2026-11-24.md (26550 chars) from 7 captures: claude, codex, grok, kimi, msi, perplexity, wire
 2026-11-25 03:40 | Traceback (most recent call last):   File "C:\Users\lilli\Projects\watch\collectors\deepseek_read.py", line 33, in <module>     with urllib.request.urlopen(req, timeout=300) as r:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File "C:\Users\lilli\scoop\apps\python312\current\Lib\urllib\request
+2026-11-25 03:42 | wrote C:\Users\lilli\Projects\watch\deepseek\2026-11-25.md (26148 chars) from 7 captures: claude, codex, grok, kimi, msi, perplexity, wire
