@@ -1,6 +1,6 @@
 # P161 — FUTO Microgrant — email application
 
-Prepared 2026-11-15 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SUBMIT; not sent.** The connected Gmail send tool rejected attempts on Nov 15, Nov 17, and Nov 22 with “MCP tool call requires approval, but approval policy is never.” No email was sent.
+Prepared 2026-11-15 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SUBMIT; not sent.** The connected Gmail send tool rejected attempts on Nov 15, Nov 17, and Nov 22 with "MCP tool call requires approval, but approval policy is never." Computer Use did not approve Chrome access on Nov 25. No email was sent.
 
 Recipient: grantapps@futo.org  
 Subject: FUTO microgrant application — Zeus AI Workbench (Jaron K. Bragg)
