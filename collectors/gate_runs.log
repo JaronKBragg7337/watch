@@ -18,3 +18,4 @@
 2026-11-25 03:18 | gate check | all desks due by now are filed and on GitHub
 2026-11-25 03:32 | gate check | all desks due by now are filed and on GitHub
 2026-11-25 03:42 | gate final | DEEPSEEK (MUST): no file | last log: 2026-11-25 03:40 | Traceback (most recent call last):   File "C:\Users\lilli\Projects\watch\collectors\deepseek_read.py", line 33, in <module>     with urllib.request.urlopen(req, timeout=300) as r:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | re-ran 'Watch DeepSeek Reader' (try 1) || LANDED in time: deepseek
+2026-11-26 03:18 | gate check | all desks due by now are filed and on GitHub
