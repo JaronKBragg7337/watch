@@ -1,5 +1,5 @@
 # Prospect ledger — project funding
-Updated: 2026-11-26 by Codex (GPT-6 Luna) | Codes: RESEARCH | ELIGIBLE | DRAFT | READY TO SUBMIT | SENT | WAITING | LIVE | CLOSED | BLOCKED | PARKED | NEEDS-JARON
+Updated: 2026-11-27 by Codex (GPT-6 Luna) | Codes: RESEARCH | ELIGIBLE | DRAFT | READY TO SUBMIT | SENT | WAITING | LIVE | CLOSED | BLOCKED | PARKED | NEEDS-JARON
 Receipts verified: **0** (receipts/ empty on purpose)
 
 **Credit line (P01 + P03):** Elons Twin draft → Claude Code fill → Jaron yes/submit.
