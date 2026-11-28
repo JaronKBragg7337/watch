@@ -1,14 +1,14 @@
 # P194 — Apart Research Agent Attribution Hackathon
 
-Prepared 2026-11-26 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SIGN UP; not registered.** The computer-use browser host was unavailable during this run.
+Prepared 2026-11-26; updated 2026-11-28 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO SIGN UP; not registered.** The automatic Computer Use review denied access to Chrome on Nov 28.
 
 ## Opportunity
 
 - Official sprint: https://apartresearch.com/sprints/agent-attribution-2026
 - Date: Dec 11-13, 2026, online; solo entries are allowed and participants need not attend every session.
 - Submission: a research report in PDF, up to 8 pages before references and appendices, due Dec 13 at 11:59 p.m. AoE. Include a 150-250 word abstract, author and affiliation, and a limitations/dual-use appendix. AI tools are allowed. Only work done during the sprint is judged; clearly label anything that existed before it.
-- Prize: the organizer confirms cash prizes but does not publish an amount on the official sprint page. An independent listing reports a $2,000 total pool, split $1,000/$500/$300/$100/$100; treat that amount as unconfirmed until the organizer verifies it.
-- Terms: the entrant keeps copyright. Submitting a project grants Apart a worldwide, royalty-free license for as long as copyright lasts to publish it, share it with funders, process it with AI tools, and use it to improve program tools. Prize payments are made by a U.S. charity via bank transfer; an eligible registered charity can be nominated if the entrant cannot receive the transfer. No indemnity clause appears in the published sprint terms. The project files say the LLC can receive grant or loan payments by bank transfer.
+- Prize: the official global page lists $500 in Adaption platform credits for each participant and $1,000 in Adaption credits for each member of a winning team. It does not publish a global cash prize amount. An independent listing reports a $2,000 cash pool, but the official page does not confirm it; do not count that as cash.
+- Terms: the entrant keeps copyright. Submitting a project grants Apart a worldwide, non-exclusive, royalty-free license for as long as copyright lasts to publish it, share it with funders, process it with AI tools, and improve program tools. No indemnity clause appears in the published sprint terms. The current official page shows a signup form but also says the project submission window has closed despite the future event date; recheck before entry. To receive the advertised platform credits, participants must register with the same email used for an Adaption account. No account is recorded.
 - Official terms: https://apartresearch.com/sprints/prize-terms
 
 ## Registration fields from known records
@@ -21,7 +21,7 @@ Prepared 2026-11-26 by Codex (GPT-6 Luna) for Jaron K. Bragg. **Status: READY TO
 - Project owner / affiliation: Heartbeat Observatory / ACS
 - LinkedIn and Google Scholar: leave blank; neither is required.
 
-This is a registration draft, not an application submission. The official sign-up form asks for first name, last name, email, and city. No values have been sent to Apart.
+This is a registration draft, not an application submission. The official sign-up form asks for first name, last name, email, and city. The automatic Computer Use review denied Chrome access on Nov 28, so no values have been sent to Apart.
 
 ## Proposed research plan
 
@@ -40,4 +40,4 @@ Estimated AI effort: 120-240 minutes for a small dataset, evaluation, and report
 1. Register through the official sprint page when a browser is available.
 2. Follow the organizers' published schedule and use the official report template when it is posted.
 3. Build and evaluate the study during the sprint; label any pre-existing materials.
-4. Before submitting the final report, confirm the project license in NEEDS-JARON.md. No project has been submitted.
+4. The user has authorized reasonable commitments that clearly advance a funding benefit. The project license is recorded above; recheck the prize and submission form before deciding whether to build the entry. No project has been submitted.
